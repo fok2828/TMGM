@@ -1,0 +1,247 @@
+{
+    "1":{
+        "id": "1",
+        "name":"鬍子",
+        "name_line":"Mattyin",
+        "pay_way":"all",
+        "position":"TMC執行長"
+    },
+    "2":{
+        "id": "2",
+        "name":"高咪",
+        "name_line":"豐宥",
+        "pay_way":"all",
+        "position":"TMC組長"
+    },
+    "3":{
+        "id": "3",
+        "name":"阿福",
+        "name_line":"JennWei",
+        "pay_way":"all",
+        "position":"TMC組長"
+    },
+    "4":{
+        "id": "4",
+        "name":"少詰",
+        "name_line":"林少詰",
+        "pay_way":"all",
+        "position":"TMC組長"
+    },
+    "5":{
+        "id": "5",
+        "name":"柏翰",
+        "name_line":"李柏翰 Po-Han Lee Bryan",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "6":{
+        "id": "6",
+        "name":"Van",
+        "name_line":"VanPersieLin",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "7":{
+        "id": "7",
+        "name":"Kai",
+        "name_line":"",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "8":{
+        "id": "8",
+        "name":"卓董",
+        "name_line":"chuo",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "9":{
+        "id": "9",
+        "name":"定遠",
+        "name_line":"李定遠",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "10":{
+        "id": "10",
+        "name":"Eric",
+        "name_line":"Eric",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "11":{
+        "id": "11",
+        "name":"亦懋",
+        "name_line":"Peterhuang (頎峰 璽嬡)",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "12":{
+        "id": "12",
+        "name":"明宏",
+        "name_line":"??",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "13":{
+        "id": "13",
+        "name":"小奕",
+        "name_line":"劉小奕 Ethan Liu",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "14":{
+        "id": "14",
+        "name":"老周",
+        "name_line":"周裕鈞 (Jerry)",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "15":{
+        "id": "15",
+        "name":"朝慶",
+        "name_line":"何朝慶",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "16":{
+        "id": "16",
+        "name":"Ray",
+        "name_line":"Ray",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "17":{
+        "id": "17",
+        "name":"劉諼",
+        "name_line":"T.House",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "18":{
+        "id": "18",
+        "name":"阿達",
+        "name_line":"陳永達",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "19":{
+        "id": "19",
+        "name":"李奇",
+        "name_line":"Chee Lee 李奇",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "20":{
+        "id": "20",
+        "name":"黑熊",
+        "name_line":"黑熊",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "21":{
+        "id": "21",
+        "name":"謝卓",
+        "name_line":"謝卓叡",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "22":{
+        "id": "22",
+        "name":"SAM",
+        "name_line":"SAM 王鄉誠 | 品牌設計顧問",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "23":{
+        "id": "23",
+        "name":"宏宏",
+        "name_line":"??",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "24":{
+        "id": "24",
+        "name":"李明璣",
+        "name_line":"??",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "25":{
+        "id": "25",
+        "name":"建宏",
+        "name_line":"陳建宏 （陳振宇 陳振杰）",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "26":{
+        "id": "26",
+        "name":"小圳",
+        "name_line":"阿圳",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "27":{
+        "id": "27",
+        "name":"Daniel 張",
+        "name_line":"Daniel.C張祖榮",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "28":{
+        "id": "28",
+        "name":"阿黑",
+        "name_line":"林阿黑",
+        "pay_way":"all",
+        "position":"球員"
+    },
+    "29":{
+        "id": "29",
+        "name":"curry",
+        "name_line":"阿哲(James)",
+        "pay_way":"once",
+        "position":"球員"
+    },
+    "30":{
+        "id": "30",
+        "name":"飛鏢吧闆娘",
+        "name_line":"桜 Maru",
+        "pay_way":"once",
+        "position":"球員"
+    },
+    "31":{
+        "id": "31",
+        "name":"打板中和",
+        "name_line":"chung ho",
+        "pay_way":"once",
+        "position":"球員"
+    },
+    "32":{
+        "id": "32",
+        "name":"飛天及時雨",
+        "name_line":"Ernest Chen",
+        "pay_way":"once",
+        "position":"球員"
+    },
+    "33":{
+        "id": "33",
+        "name":"木子藝術",
+        "name_line":"Paul??",
+        "pay_way":"once",
+        "position":"球員"
+    },
+    "34":{
+        "id": "34",
+        "name":"街頭詩人Ken",
+        "name_line":"",
+        "pay_way":"once",
+        "position":"球員"
+    },
+    "35":{
+        "id": "35",
+        "name":"強力外援",
+        "name_line":"",
+        "pay_way":"once",
+        "position":"球員"
+    }
+}
