@@ -44,7 +44,7 @@
     "7":{
         "id": "7",
         "name":"Kai",
-        "name_line":"",
+        "name_line":"凱凱",
         "pay_way":"all",
         "position":"球員"
     },
@@ -79,7 +79,7 @@
     "12":{
         "id": "12",
         "name":"明宏",
-        "name_line":"??",
+        "name_line":"Ken-Hsieh",
         "pay_way":"all",
         "position":"球員"
     },
@@ -156,14 +156,14 @@
     "23":{
         "id": "23",
         "name":"宏宏",
-        "name_line":"??",
+        "name_line":"",
         "pay_way":"all",
         "position":"球員"
     },
     "24":{
         "id": "24",
         "name":"李明璣",
-        "name_line":"??",
+        "name_line":"Thomas Lee",
         "pay_way":"all",
         "position":"球員"
     },
@@ -226,20 +226,55 @@
     "33":{
         "id": "33",
         "name":"木子藝術",
-        "name_line":"Paul??",
+        "name_line":"Paul",
         "pay_way":"once",
         "position":"球員"
     },
     "34":{
         "id": "34",
         "name":"街頭詩人Ken",
-        "name_line":"",
+        "name_line":"Ken Lui",
         "pay_way":"once",
         "position":"球員"
     },
     "35":{
         "id": "35",
         "name":"強力外援",
+        "name_line":"",
+        "pay_way":"once",
+        "position":"球員"
+    },
+    "36":{
+        "id": "36",
+        "name":"新秀大學生",
+        "name_line":"Lê Minh Tâm 黎明心",
+        "pay_way":"once",
+        "position":"球員"
+    },
+    "37":{
+        "id": "37",
+        "name":"阿呆",
+        "name_line":"Abibas",
+        "pay_way":"once",
+        "position":"球員"
+    },
+    "38":{
+        "id": "38",
+        "name":"Colin",
+        "name_line":"Colin🦋",
+        "pay_way":"once",
+        "position":"球員"
+    },
+    "39":{
+        "id": "39",
+        "name":"孫浩哲",
+        "name_line":"",
+        "pay_way":"once",
+        "position":"球員"
+    },
+    "40":{
+        "id": "40",
+        "name":"林阿黑朋友",
         "name_line":"",
         "pay_way":"once",
         "position":"球員"
