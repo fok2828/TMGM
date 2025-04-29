@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import playersData from '../json/players.json';
+import allGamesData from '../json/games.json';
 
 interface Player {
   id: string;
@@ -12,6 +13,7 @@ interface Player {
 
 export const PlayerList = () => {
   const navigate = useNavigate();
+  const allGameData = Object.values(allGamesData)
   const players: Player[] = Object.values(playersData);
 
   const [search, setSearch] = useState('');
@@ -20,6 +22,14 @@ export const PlayerList = () => {
   const getPayWayText = (way: string) => {
     return way === 'all' ? '季繳' : '單次';
   };
+
+  const getAttendance = (playerId:string) => {
+    const attendanceCount = allGameData.filter((game) => game.participants.split(",").includes(playerId))
+    const totalCount = allGameData.length
+    
+    return attendanceCount.length +" / "+ totalCount
+  }
+
 
   const filteredPlayers = players.filter((p) => {
     const matchesSearch =
@@ -61,6 +71,7 @@ export const PlayerList = () => {
               <th>Line 名稱</th>
               <th>職稱</th>
               <th>付費方式</th>
+              <th>出席率</th>
             </tr>
           </thead>
           <tbody>
@@ -74,6 +85,7 @@ export const PlayerList = () => {
                 <td>{player.name_line || '-'}</td>
                 <td>{player.position}</td>
                 <td>{getPayWayText(player.pay_way)}</td>
+                <td>{getAttendance(player.id)}</td>
               </tr>
             ))}
           </tbody>

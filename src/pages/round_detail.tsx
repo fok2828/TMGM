@@ -28,7 +28,6 @@ export const RoundDetail = () => {
     interface Player {
         player_id: string;
         teamColor: string;
-        points: number;
         twoMade: number;
         twoAttempt: number;
         threeMade: number;
@@ -54,8 +53,7 @@ export const RoundDetail = () => {
         date: score.date,
         teamA: Object.values(score.teamA).map((player) => ({
             player_id: player.player_id,
-            teamColor: player.teamColor,
-            points: Number(player.points), // Convert score to a number
+            teamColor: player.teamColor,// Convert score to a number
             twoMade: Number(player.twoMade),
             twoAttempt: Number(player.twoAttempt),
             threeMade: Number(player.threeMade),
@@ -69,8 +67,7 @@ export const RoundDetail = () => {
         })),
         teamB: Object.values(score.teamB).map((player) => ({
             player_id: player.player_id,
-            teamColor: player.teamColor,
-            points: Number(player.points), // Convert score to a number
+            teamColor: player.teamColor, // Convert score to a number
             twoMade: Number(player.twoMade),
             twoAttempt: Number(player.twoAttempt),
             threeMade: Number(player.threeMade),
@@ -100,7 +97,7 @@ export const RoundDetail = () => {
     const calcTeamSummary = (players: Player[]) => {
         const playersArray = Object.values(players);
         return playersArray.reduce((sum, p) => ({
-            points: sum.points + p.points,
+            points: sum.points + (p.twoMade*2 + p.threeMade*3),
             twoMade: sum.twoMade + p.twoMade,
             twoAttempt: sum.twoAttempt + p.twoAttempt,
             threeMade: sum.threeMade + p.threeMade,
@@ -161,10 +158,7 @@ export const RoundDetail = () => {
     })
 
     // 比分排序
-    const teamsSorted = teamASummary.points >= teamBSummary.points
-      ? [{ ...teamA, score: teamASummary.points, name:teamAName, players:teamA}, { ...teamB, score: teamBSummary.points, name:teamBName, players:teamB }]
-      : [{ ...teamB, score: teamBSummary.points, name:teamBName, players:teamB}, { ...teamA, score: teamASummary.points, name:teamAName, players:teamA }];
-
+    const teamsSorted = [{ ...teamA, score: teamASummary.points, name:teamAName, players:teamA}, { ...teamB, score: teamBSummary.points, name:teamBName, players:teamB }];
 
     const getPlayerName = (player_id:string)=>{
         const playerInfo = playerData.filter((player) => player.id===player_id)
@@ -229,7 +223,7 @@ export const RoundDetail = () => {
                                     className="cursor-pointer hover:bg-base-200"
                                     onClick={() => navigate(`/players/${p.player_id}`)}>
                                     <td>{getPlayerName(p.player_id)}</td>
-                                    <td>{p.points}</td>
+                                    <td>{p.twoMade*2 + p.threeMade*3}</td>
                                     <td>{p.twoMade} / {p.twoAttempt}</td>
                                     <td>{p.threeMade} / {p.threeAttempt}</td>
                                     <td>{p.oReb}</td>

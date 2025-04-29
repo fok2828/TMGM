@@ -28,17 +28,16 @@ interface Round {
 }
 
 interface Player{
-    "points": number,
-    "twoMade": string,
-    "twoAttempt": string,
-    "threeMade": string,
-    "threeAttempt": string,
-    "oReb": string,
-    "dReb": string,
-    "ast": string,
-    "stl": string,
-    "blk": string,
-    "tov": string
+    "twoMade": number,
+    "twoAttempt": number,
+    "threeMade": number,
+    "threeAttempt": number,
+    "oReb": number,
+    "dReb": number,
+    "ast": number,
+    "stl": number,
+    "blk": number,
+    "tov": number
 }
 
 interface Score {
@@ -57,30 +56,28 @@ export const GameDetail = () => {
         id: score.id,
         date: score.date,
         teamA: Object.values(score.teamA).map((player) => ({
-          points: Number(player.points),
-          twoMade: player.twoMade,
-          twoAttempt: player.twoAttempt,
-          threeMade: player.threeMade,
-          threeAttempt: player.threeAttempt,
-          oReb: player.oReb,
-          dReb: player.dReb,
-          ast: player.ast,
-          stl: player.stl,
-          blk: player.blk,
-          tov: player.tov,
+          twoMade: Number(player.twoMade),
+          twoAttempt: Number(player.twoAttempt),
+          threeMade: Number(player.threeMade),
+          threeAttempt: Number(player.threeAttempt),
+          oReb: Number(player.oReb),
+          dReb: Number(player.dReb),
+          ast: Number(player.ast),
+          stl: Number(player.stl),
+          blk: Number(player.blk),
+          tov: Number(player.tov)
         })),
         teamB: Object.values(score.teamB).map((player) => ({
-          points: Number(player.points),
-          twoMade: player.twoMade,
-          twoAttempt: player.twoAttempt,
-          threeMade: player.threeMade,
-          threeAttempt: player.threeAttempt,
-          oReb: player.oReb,
-          dReb: player.dReb,
-          ast: player.ast,
-          stl: player.stl,
-          blk: player.blk,
-          tov: player.tov,
+            twoMade: Number(player.twoMade),
+            twoAttempt: Number(player.twoAttempt),
+            threeMade: Number(player.threeMade),
+            threeAttempt: Number(player.threeAttempt),
+            oReb: Number(player.oReb),
+            dReb: Number(player.dReb),
+            ast: Number(player.ast),
+            stl: Number(player.stl),
+            blk: Number(player.blk),
+            tov: Number(player.tov)
         })),
       }));
 
@@ -101,8 +98,8 @@ export const GameDetail = () => {
         const score =scores.filter((score:Score) => score.id===round_id && score.date===round_date)
 
         if (score.length > 0){
-            const score1 = score[0].teamA.reduce((sum, p) => sum + p.points, 0)
-            const score2 = score[0].teamB.reduce((sum, p) => sum + p.points, 0)
+            const score1 = score[0].teamA.reduce((sum, p) => sum + p.twoMade*2 + p.threeMade*3, 0)
+            const score2 = score[0].teamB.reduce((sum, p) => sum + p.twoMade*2 + p.threeMade*3, 0)
             
             return score1 > score2 ? score1 + ":" + score2 : score2 + ":" + score1 
 

@@ -36,7 +36,7 @@ export const PlayerDetail = () => {
       teamA: Object.values(score.teamA).map((player) => ({
           player_id: player.player_id,
           teamColor: player.teamColor,
-          points: Number(player.points), // Convert score to a number
+          points: Number(player.twoMade)*2 + Number(player.threeMade)*3, 
           twoMade: Number(player.twoMade),
           twoAttempt: Number(player.twoAttempt),
           threeMade: Number(player.threeMade),
@@ -51,7 +51,7 @@ export const PlayerDetail = () => {
       teamB: Object.values(score.teamB).map((player) => ({
           player_id: player.player_id,
           teamColor: player.teamColor,
-          points: Number(player.points), // Convert score to a number
+          points: Number(player.twoMade)*2 + Number(player.threeMade)*3,
           twoMade: Number(player.twoMade),
           twoAttempt: Number(player.twoAttempt),
           threeMade: Number(player.threeMade),
