@@ -1,7 +1,9 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import { NavBar } from './components/navbar'
+import { GameList } from './pages/game_list'
 import { Home } from './pages/home'
+import { Team } from './pages/team'
 import { Place } from './pages/place'
 import { GameDetail } from './pages/game_detail'
 import { RoundDetail } from './pages/round_detail'
@@ -16,6 +18,8 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/games" element={<GameList />} />
+          <Route path="/teams" element={<Team />} />
           <Route path="/games/:game_id" element={<GameDetail />} />
           <Route path="/rounds/:round_id" element={<RoundDetail />} />
           <Route path="/place" element={<Place />} />
