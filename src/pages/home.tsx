@@ -2,14 +2,24 @@ import { useNavigate } from 'react-router-dom';
 import gameData from '../json/games.json';
 
 export const Home = () => {
+    
+    interface Game {
+      id: string;
+      date: string;
+      time: string;
+      location: string;
+      participants: string;
+    }
     const navigate = useNavigate();
-    const gameList = Object.values(gameData);
+    const gameList: Game[] = Object.values(gameData);
+
+    const sortedGameList = gameList.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
     
       return (
         <div className="p-6">
           <h1 className="text-3xl font-bold mb-6">比賽列表</h1>
           <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-            {gameList.map((game) => (
+            {sortedGameList.map((game) => (
               <div key={game.id} className="card bg-base-100 shadow-md p-4">
                 <h2 className="text-xl font-semibold">{game.date}</h2>
                 <p className="text-sm mb-3">{game.time}</p>

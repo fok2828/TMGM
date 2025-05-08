@@ -163,7 +163,7 @@
     "24":{
         "id": "24",
         "name":"李明璣",
-        "name_line":"Thomas Lee",
+        "name_line":"Thomas Lee 🐔",
         "pay_way":"all",
         "position":"球員"
     },
@@ -205,7 +205,7 @@
     "30":{
         "id": "30",
         "name":"飛鏢吧闆娘",
-        "name_line":"桜 Maru",
+        "name_line":"桜🌸 Maru 🏀",
         "pay_way":"once",
         "position":"球員"
     },
@@ -276,6 +276,34 @@
         "id": "40",
         "name":"林阿黑朋友",
         "name_line":"",
+        "pay_way":"once",
+        "position":"球員"
+    },
+    "41":{
+        "id": "41",
+        "name":"凱凱姊夫",
+        "name_line":"",
+        "pay_way":"once",
+        "position":"球員"
+    },
+    "42":{
+        "id": "42",
+        "name":"日本國寶",
+        "name_line":"",
+        "pay_way":"once",
+        "position":"球員"
+    },
+    "43":{
+        "id": "43",
+        "name":"會長友eason",
+        "name_line":"Eason",
+        "pay_way":"once",
+        "position":"球員"
+    },
+    "44":{
+        "id": "44",
+        "name":"會長友eric",
+        "name_line":"eric",
         "pay_way":"once",
         "position":"球員"
     }

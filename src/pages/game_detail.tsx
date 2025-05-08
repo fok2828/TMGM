@@ -23,6 +23,7 @@ interface Game {
 interface Round {
     id: string,
     date: string;
+    round: string;
     type: string;
     timeDuration: string;
 }
@@ -113,13 +114,22 @@ export const GameDetail = () => {
             {/* 規則 */}
             <div className="card bg-base-200 shadow-inner p-4">
                 <h3 className="text-xl font-bold mb-2">比賽規則</h3>
-                <p>比賽時間：{game.game_rules.total_time} 分鐘</p>
-                <p>比賽總分：{game.game_rules.total_score} 分</p>
-                <p>下場規則：</p>
                 <ul className="list-disc list-inside mt-1">
-                {rules.map((rule, index) => (
-                    <li key={index}>{rule}</li>
-                ))}
+                    {rules.map((rule, index) => {
+                        if (index === 5) {
+                        return (
+                            <li key={index}>
+                            {rule}
+                            <ul className="list-disc list-inside ml-4">
+                                <li>任何一隊先達11分即結束比賽。</li>
+                                <li>若雙方都超過7分，兩隊都下場（勝隊優先上場）。</li>
+                            </ul>
+                            </li>
+                        );
+                        } else {
+                        return <li key={index}>{rule}</li>;
+                        }
+                    })}
                 </ul>
             </div>
 
@@ -143,7 +153,7 @@ export const GameDetail = () => {
                     <tbody>
                         {rounds.map((r, i) => (
                             <tr key={i}>
-                                <td>{r.id}</td>
+                                <td>{r.round}</td>
                                 <td>{r.timeDuration}</td>
                                 <td>{r.type}</td>
                                 <td>{getTotalScores(r.id, r.date)}</td>
