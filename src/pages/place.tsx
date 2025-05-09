@@ -83,7 +83,7 @@ export const Place = () => {
                 </div>
               </div>
             </div>
-            <button className="btn btn-info mt-4" onClick={() => navigate('/home')}>
+            <button className="btn btn-info mt-4" onClick={() => navigate('/games')}>
               比賽資訊
             </button>
           </div>

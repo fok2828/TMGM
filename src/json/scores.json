@@ -1,9 +1,9 @@
-{
-  "1": {
+[
+  {
     "id": "1",
     "date": "2025-04-20",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "5",
         "teamColor": "black",
         "twoMade": "0",
@@ -17,7 +17,7 @@
         "blk": "0",
         "tov": "1"
       },
-      "2": {
+      {
         "player_id": "8",
         "teamColor": "black",
         "twoMade": "0",
@@ -31,7 +31,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "3": {
+      {
         "player_id": "11",
         "teamColor": "black",
         "twoMade": "0",
@@ -45,7 +45,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "4": {
+      {
         "player_id": "26",
         "teamColor": "black",
         "twoMade": "1",
@@ -59,7 +59,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "5": {
+      {
         "player_id": "35",
         "teamColor": "black",
         "twoMade": "0",
@@ -73,9 +73,9 @@
         "blk": "0",
         "tov": "0"
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "2",
         "teamColor": "white",
         "twoMade": "2",
@@ -89,7 +89,7 @@
         "blk": "0",
         "tov": "3"
       },
-      "2": {
+      {
         "player_id": "3",
         "teamColor": "white",
         "twoMade": "1",
@@ -103,7 +103,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "3": {
+      {
         "player_id": "10",
         "teamColor": "white",
         "twoMade": "2",
@@ -117,7 +117,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "4": {
+      {
         "player_id": "19",
         "teamColor": "white",
         "twoMade": "0",
@@ -131,7 +131,7 @@
         "blk": "0",
         "tov": "1"
       },
-      "5": {
+      {
         "player_id": "25",
         "teamColor": "white",
         "twoMade": "1",
@@ -145,13 +145,13 @@
         "blk": "0",
         "tov": "0"
       }
-    }
+    ]
   },
-  "2": {
+  {
     "id": "2",
     "date": "2025-04-20",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "2",
         "teamColor": "black",
         "twoMade": "0",
@@ -165,7 +165,7 @@
         "blk": "0",
         "tov": "1"
       },
-      "2": {
+      {
         "player_id": "3",
         "teamColor": "black",
         "twoMade": "1",
@@ -179,7 +179,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "3": {
+      {
         "player_id": "5",
         "teamColor": "black",
         "twoMade": "2",
@@ -193,7 +193,7 @@
         "blk": "0",
         "tov": "1"
       },
-      "4": {
+      {
         "player_id": "11",
         "teamColor": "black",
         "twoMade": "2",
@@ -207,7 +207,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "5": {
+      {
         "player_id": "26",
         "teamColor": "black",
         "twoMade": "1",
@@ -221,9 +221,9 @@
         "blk": "0",
         "tov": "0"
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "9",
         "teamColor": "white",
         "twoMade": "1",
@@ -237,7 +237,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "2": {
+      {
         "player_id": "10",
         "teamColor": "white",
         "twoMade": "1",
@@ -251,7 +251,7 @@
         "blk": "0",
         "tov": "1"
       },
-      "3": {
+      {
         "player_id": "19",
         "teamColor": "white",
         "twoMade": "1",
@@ -265,7 +265,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "4": {
+      {
         "player_id": "25",
         "teamColor": "white",
         "twoMade": "0",
@@ -279,7 +279,7 @@
         "blk": "0",
         "tov": "1"
       },
-      "5": {
+      {
         "player_id": "28",
         "teamColor": "white",
         "twoMade": "1",
@@ -293,13 +293,13 @@
         "blk": "0",
         "tov": "2"
       }
-    }
+    ]
   },
-  "3": {
+  {
     "id": "3",
     "date": "2025-04-20",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "2",
         "teamColor": "black",
         "points": "0",
@@ -314,7 +314,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "2": {
+      {
         "player_id": "5",
         "teamColor": "black",
         "points": "3",
@@ -329,7 +329,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "3": {
+      {
         "player_id": "8",
         "teamColor": "black",
         "points": "6",
@@ -344,7 +344,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "4": {
+      {
         "player_id": "11",
         "teamColor": "black",
         "points": "2",
@@ -359,7 +359,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "5": {
+      {
         "player_id": "35",
         "teamColor": "black",
         "points": "0",
@@ -374,9 +374,9 @@
         "blk": "0",
         "tov": "0"
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "3",
         "teamColor": "white",
         "points": "3",
@@ -391,7 +391,7 @@
         "blk": "0",
         "tov": "1"
       },
-      "2": {
+      {
         "player_id": "9",
         "teamColor": "white",
         "points": "2",
@@ -406,7 +406,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "3": {
+      {
         "player_id": "10",
         "teamColor": "white",
         "points": "0",
@@ -421,7 +421,7 @@
         "blk": "0",
         "tov": "1"
       },
-      "4": {
+      {
         "player_id": "25",
         "teamColor": "white",
         "points": "4",
@@ -436,7 +436,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "5": {
+      {
         "player_id": "28",
         "teamColor": "white",
         "points": "0",
@@ -451,13 +451,13 @@
         "blk": "0",
         "tov": "1"
       }
-    }
+    ]
   },
-  "4": {
+  {
     "id": "4",
     "date": "2025-04-20",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "8",
         "teamColor": "black",
         "points": "0",
@@ -472,7 +472,7 @@
         "blk": "0",
         "tov": "1"
       },
-      "2": {
+      {
         "player_id": "11",
         "teamColor": "black",
         "points": "2",
@@ -487,7 +487,7 @@
         "blk": "0",
         "tov": "1"
       },
-      "3": {
+      {
         "player_id": "19",
         "teamColor": "black",
         "points": "4",
@@ -502,7 +502,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "4": {
+      {
         "player_id": "26",
         "teamColor": "black",
         "points": "0",
@@ -517,7 +517,7 @@
         "blk": "0",
         "tov": "1"
       },
-      "5": {
+      {
         "player_id": "35",
         "teamColor": "black",
         "points": "6",
@@ -532,9 +532,9 @@
         "blk": "1",
         "tov": "0"
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "3",
         "teamColor": "white",
         "points": "0",
@@ -549,7 +549,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "2": {
+      {
         "player_id": "9",
         "teamColor": "white",
         "points": "4",
@@ -564,7 +564,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "3": {
+      {
         "player_id": "10",
         "teamColor": "white",
         "points": "2",
@@ -579,7 +579,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "4": {
+      {
         "player_id": "25",
         "teamColor": "white",
         "points": "2",
@@ -594,7 +594,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "5": {
+      {
         "player_id": "28",
         "teamColor": "white",
         "points": "0",
@@ -609,13 +609,13 @@
         "blk": "0",
         "tov": "1"
       }
-    }
+    ]
   },
-  "5": {
+  {
     "id": "5",
     "date": "2025-04-20",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "2",
         "teamColor": "black",
         "points": "2",
@@ -630,7 +630,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "2": {
+      {
         "player_id": "5",
         "teamColor": "black",
         "points": "2",
@@ -645,7 +645,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "3": {
+      {
         "player_id": "8",
         "teamColor": "black",
         "points": "5",
@@ -660,7 +660,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "4": {
+      {
         "player_id": "11",
         "teamColor": "black",
         "points": "2",
@@ -675,7 +675,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "5": {
+      {
         "player_id": "35",
         "teamColor": "black",
         "points": "0",
@@ -690,9 +690,9 @@
         "blk": "0",
         "tov": "0"
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "9",
         "teamColor": "white",
         "points": "0",
@@ -707,7 +707,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "2": {
+      {
         "player_id": "10",
         "teamColor": "white",
         "points": "2",
@@ -722,7 +722,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "3": {
+      {
         "player_id": "19",
         "teamColor": "white",
         "points": "0",
@@ -737,7 +737,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "4": {
+      {
         "player_id": "25",
         "teamColor": "white",
         "points": "0",
@@ -752,7 +752,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "5": {
+      {
         "player_id": "28",
         "teamColor": "white",
         "points": "4",
@@ -767,13 +767,13 @@
         "blk": "1",
         "tov": "0"
       }
-    }
+    ]
   },
-  "6": {
+  {
     "id": "6",
     "date": "2025-04-20",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "5",
         "teamColor": "black",
         "points": "5",
@@ -788,7 +788,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "2": {
+      {
         "player_id": "8",
         "teamColor": "black",
         "points": "0",
@@ -803,7 +803,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "3": {
+      {
         "player_id": "9",
         "teamColor": "black",
         "points": "4",
@@ -818,7 +818,7 @@
         "blk": "1",
         "tov": "0"
       },
-      "4": {
+      {
         "player_id": "26",
         "teamColor": "black",
         "points": "2",
@@ -833,7 +833,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "5": {
+      {
         "player_id": "35",
         "teamColor": "black",
         "points": "0",
@@ -848,9 +848,9 @@
         "blk": "0",
         "tov": "0"
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "2",
         "teamColor": "white",
         "points": "2",
@@ -865,7 +865,7 @@
         "blk": "0",
         "tov": "1"
       },
-      "2": {
+      {
         "player_id": "3",
         "teamColor": "white",
         "points": "4",
@@ -880,7 +880,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "3": {
+      {
         "player_id": "10",
         "teamColor": "white",
         "points": "0",
@@ -895,7 +895,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "4": {
+      {
         "player_id": "19",
         "teamColor": "white",
         "points": "0",
@@ -910,7 +910,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "5": {
+      {
         "player_id": "28",
         "teamColor": "white",
         "points": "0",
@@ -925,13 +925,13 @@
         "blk": "0",
         "tov": "0"
       }
-    }
+    ]
   },
-  "7": {
+  {
     "id": "7",
     "date": "2025-04-20",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "5",
         "teamColor": "black",
         "points": "0",
@@ -946,7 +946,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "2": {
+      {
         "player_id": "8",
         "teamColor": "black",
         "points": "3",
@@ -961,7 +961,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "3": {
+      {
         "player_id": "9",
         "teamColor": "black",
         "points": "2",
@@ -976,7 +976,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "4": {
+      {
         "player_id": "26",
         "teamColor": "black",
         "points": "0",
@@ -991,7 +991,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "5": {
+      {
         "player_id": "35",
         "teamColor": "black",
         "points": "0",
@@ -1006,9 +1006,9 @@
         "blk": "0",
         "tov": "1"
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "2",
         "teamColor": "white",
         "points": "0",
@@ -1023,7 +1023,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "2": {
+      {
         "player_id": "3",
         "teamColor": "white",
         "points": "4",
@@ -1038,7 +1038,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "3": {
+      {
         "player_id": "11",
         "teamColor": "white",
         "points": "6",
@@ -1053,7 +1053,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "4": {
+      {
         "player_id": "19",
         "teamColor": "white",
         "points": "2",
@@ -1068,7 +1068,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "5": {
+      {
         "player_id": "28",
         "teamColor": "white",
         "points": "0",
@@ -1083,13 +1083,13 @@
         "blk": "0",
         "tov": "0"
       }
-    }
+    ]
   },
-  "8": {
+  {
     "id": "8",
     "date": "2025-04-20",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "5",
         "teamColor": "black",
         "points": "3",
@@ -1104,7 +1104,7 @@
         "blk": "0",
         "tov": "1"
       },
-      "2": {
+      {
         "player_id": "9",
         "teamColor": "black",
         "points": "2",
@@ -1119,7 +1119,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "3": {
+      {
         "player_id": "25",
         "teamColor": "black",
         "points": "0",
@@ -1134,7 +1134,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "4": {
+      {
         "player_id": "26",
         "teamColor": "black",
         "points": "2",
@@ -1149,7 +1149,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "5": {
+      {
         "player_id": "35",
         "teamColor": "black",
         "points": "4",
@@ -1164,9 +1164,9 @@
         "blk": "0",
         "tov": "0"
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "2",
         "teamColor": "white",
         "points": "2",
@@ -1181,7 +1181,7 @@
         "blk": "1",
         "tov": "1"
       },
-      "2": {
+      {
         "player_id": "3",
         "teamColor": "white",
         "points": "2",
@@ -1196,7 +1196,7 @@
         "blk": "0",
         "tov": "1"
       },
-      "3": {
+      {
         "player_id": "10",
         "teamColor": "white",
         "points": "2",
@@ -1211,7 +1211,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "4": {
+      {
         "player_id": "11",
         "teamColor": "white",
         "points": "0",
@@ -1226,7 +1226,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "5": {
+      {
         "player_id": "28",
         "teamColor": "white",
         "points": "0",
@@ -1241,13 +1241,13 @@
         "blk": "0",
         "tov": "0"
       }
-    }
+    ]
   },
-  "9": {
+  {
     "id": "9",
     "date": "2025-04-20",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "5",
         "teamColor": "black",
         "points": "6",
@@ -1262,7 +1262,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "2": {
+      {
         "player_id": "9",
         "teamColor": "black",
         "points": "0",
@@ -1277,7 +1277,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "3": {
+      {
         "player_id": "25",
         "teamColor": "black",
         "points": "6",
@@ -1292,7 +1292,7 @@
         "blk": "0",
         "tov": "1"
       },
-      "4": {
+      {
         "player_id": "26",
         "teamColor": "black",
         "points": "0",
@@ -1307,7 +1307,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "5": {
+      {
         "player_id": "35",
         "teamColor": "black",
         "points": "0",
@@ -1322,9 +1322,9 @@
         "blk": "0",
         "tov": "0"
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "2",
         "teamColor": "white",
         "points": "0",
@@ -1339,7 +1339,7 @@
         "blk": "0",
         "tov": "1"
       },
-      "2": {
+      {
         "player_id": "10",
         "teamColor": "white",
         "points": "2",
@@ -1354,7 +1354,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "3": {
+      {
         "player_id": "11",
         "teamColor": "white",
         "points": "0",
@@ -1369,7 +1369,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "4": {
+      {
         "player_id": "19",
         "teamColor": "white",
         "points": "2",
@@ -1384,7 +1384,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "5": {
+      {
         "player_id": "28",
         "teamColor": "white",
         "points": "0",
@@ -1399,13 +1399,13 @@
         "blk": "0",
         "tov": "0"
       }
-    }
+    ]
   },
-  "10": {
+  {
     "id": "10",
     "date": "2025-04-20",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "5",
         "teamColor": "black",
         "points": "2",
@@ -1420,7 +1420,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "2": {
+      {
         "player_id": "9",
         "teamColor": "black",
         "points": "0",
@@ -1435,7 +1435,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "3": {
+      {
         "player_id": "25",
         "teamColor": "black",
         "points": "4",
@@ -1450,7 +1450,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "4": {
+      {
         "player_id": "26",
         "teamColor": "black",
         "points": "2",
@@ -1465,7 +1465,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "5": {
+      {
         "player_id": "35",
         "teamColor": "black",
         "points": "4",
@@ -1480,9 +1480,9 @@
         "blk": "0",
         "tov": "0"
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "3",
         "teamColor": "white",
         "points": "0",
@@ -1497,7 +1497,7 @@
         "blk": "0",
         "tov": "1"
       },
-      "2": {
+      {
         "player_id": "10",
         "teamColor": "white",
         "points": "4",
@@ -1512,7 +1512,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "3": {
+      {
         "player_id": "10",
         "teamColor": "white",
         "points": "0",
@@ -1527,7 +1527,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "4": {
+      {
         "player_id": "19",
         "teamColor": "white",
         "points": "0",
@@ -1542,7 +1542,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "5": {
+      {
         "player_id": "28",
         "teamColor": "white",
         "points": "2",
@@ -1557,13 +1557,13 @@
         "blk": "0",
         "tov": "0"
       }
-    }
+    ]
   },
-  "11": {
+  {
     "id": "11",
     "date": "2025-04-20",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "5",
         "teamColor": "black",
         "points": "2",
@@ -1578,7 +1578,7 @@
         "blk": "0",
         "tov": "2"
       },
-      "2": {
+      {
         "player_id": "9",
         "teamColor": "black",
         "points": "2",
@@ -1593,7 +1593,7 @@
         "blk": "0",
         "tov": "1"
       },
-      "3": {
+      {
         "player_id": "25",
         "teamColor": "black",
         "points": "2",
@@ -1608,7 +1608,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "4": {
+      {
         "player_id": "26",
         "teamColor": "black",
         "points": "0",
@@ -1623,7 +1623,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "5": {
+      {
         "player_id": "35",
         "teamColor": "black",
         "points": "0",
@@ -1638,9 +1638,9 @@
         "blk": "0",
         "tov": "0"
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "3",
         "teamColor": "white",
         "points": "0",
@@ -1655,7 +1655,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "2": {
+      {
         "player_id": "10",
         "teamColor": "white",
         "points": "4",
@@ -1670,7 +1670,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "3": {
+      {
         "player_id": "11",
         "teamColor": "white",
         "points": "0",
@@ -1685,7 +1685,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "4": {
+      {
         "player_id": "19",
         "teamColor": "white",
         "points": "0",
@@ -1700,7 +1700,7 @@
         "blk": "0",
         "tov": "0"
       },
-      "5": {
+      {
         "player_id": "28",
         "teamColor": "white",
         "points": "0",
@@ -1715,13 +1715,13 @@
         "blk": "0",
         "tov": "0"
       }
-    }
+    ]
   },
-  "12": {
+  {
     "id": "12",
     "date": "2025-04-27",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "5",
         "teamColor": "black",
         "twoMade": 3,
@@ -1735,7 +1735,7 @@
         "blk": 0,
         "tov": 1
       },
-      "2": {
+      {
         "player_id": "1",
         "teamColor": "black",
         "twoMade": 0,
@@ -1749,7 +1749,7 @@
         "blk": 1,
         "tov": 0
       },
-      "3": {
+      {
         "player_id": "2",
         "teamColor": "black",
         "twoMade": 1,
@@ -1763,7 +1763,7 @@
         "blk": 0,
         "tov": 1
       },
-      "4": {
+      {
         "player_id": "28",
         "teamColor": "black",
         "twoMade": 0,
@@ -1777,7 +1777,7 @@
         "blk": 0,
         "tov": 1
       },
-      "5": {
+      {
         "player_id": "11",
         "teamColor": "black",
         "twoMade": 0,
@@ -1791,9 +1791,9 @@
         "blk": 0,
         "tov": 1
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "8",
         "teamColor": "white",
         "twoMade": 0,
@@ -1807,7 +1807,7 @@
         "blk": 0,
         "tov": 2
       },
-      "2": {
+      {
         "player_id": "14",
         "teamColor": "white",
         "twoMade": 1,
@@ -1821,7 +1821,7 @@
         "blk": 0,
         "tov": 1
       },
-      "3": {
+      {
         "player_id": "9",
         "teamColor": "white",
         "twoMade": 2,
@@ -1835,7 +1835,7 @@
         "blk": 0,
         "tov": 1
       },
-      "4": {
+      {
         "player_id": "40",
         "teamColor": "white",
         "twoMade": 0,
@@ -1849,7 +1849,7 @@
         "blk": 0,
         "tov": 0
       },
-      "5": {
+      {
         "player_id": "13",
         "teamColor": "white",
         "twoMade": 0,
@@ -1863,13 +1863,13 @@
         "blk": 0,
         "tov": 2
       }
-    }
+    ]
   },
-  "13": {
+  {
     "id": "13",
     "date": "2025-04-27",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "34",
         "teamColor": "black",
         "twoMade": 0,
@@ -1883,7 +1883,7 @@
         "blk": 0,
         "tov": 0
       },
-      "2": {
+      {
         "player_id": "1",
         "teamColor": "black",
         "twoMade": 1,
@@ -1897,7 +1897,7 @@
         "blk": 0,
         "tov": 2
       },
-      "3": {
+      {
         "player_id": "2",
         "teamColor": "black",
         "twoMade": 0,
@@ -1911,7 +1911,7 @@
         "blk": 0,
         "tov": 3
       },
-      "4": {
+      {
         "player_id": "28",
         "teamColor": "black",
         "twoMade": 0,
@@ -1925,7 +1925,7 @@
         "blk": 0,
         "tov": 2
       },
-      "5": {
+      {
         "player_id": "11",
         "teamColor": "black",
         "twoMade": 2,
@@ -1939,9 +1939,9 @@
         "blk": 0,
         "tov": 2
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "8",
         "teamColor": "white",
         "twoMade": 0,
@@ -1955,7 +1955,7 @@
         "blk": 0,
         "tov": 0
       },
-      "2": {
+      {
         "player_id": "3",
         "teamColor": "white",
         "twoMade": 1,
@@ -1969,7 +1969,7 @@
         "blk": 0,
         "tov": 0
       },
-      "3": {
+      {
         "player_id": "5",
         "teamColor": "white",
         "twoMade": 2,
@@ -1983,7 +1983,7 @@
         "blk": 0,
         "tov": 0
       },
-      "4": {
+      {
         "player_id": "17",
         "teamColor": "white",
         "twoMade": 1,
@@ -1997,7 +1997,7 @@
         "blk": 0,
         "tov": 0
       },
-      "5": {
+      {
         "player_id": "39",
         "teamColor": "white",
         "twoMade": 0,
@@ -2011,13 +2011,13 @@
         "blk": 0,
         "tov": 2
       }
-    }
+    ]
   },
-  "14": {
+  {
     "id": "14",
     "date": "2025-04-27",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "18",
         "teamColor": "black",
         "twoMade": 0,
@@ -2031,7 +2031,7 @@
         "blk": 0,
         "tov": 2
       },
-      "2": {
+      {
         "player_id": "36",
         "teamColor": "black",
         "twoMade": 1,
@@ -2045,7 +2045,7 @@
         "blk": 0,
         "tov": 0
       },
-      "3": {
+      {
         "player_id": "7",
         "teamColor": "black",
         "twoMade": 0,
@@ -2059,7 +2059,7 @@
         "blk": 0,
         "tov": 0
       },
-      "4": {
+      {
         "player_id": "40",
         "teamColor": "black",
         "twoMade": 1,
@@ -2073,7 +2073,7 @@
         "blk": 0,
         "tov": 1
       },
-      "5": {
+      {
         "player_id": "38",
         "teamColor": "black",
         "twoMade": 0,
@@ -2087,9 +2087,9 @@
         "blk": 0,
         "tov": 0
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "8",
         "teamColor": "white",
         "twoMade": 0,
@@ -2103,7 +2103,7 @@
         "blk": 0,
         "tov": 0
       },
-      "2": {
+      {
         "player_id": "3",
         "teamColor": "white",
         "twoMade": 0,
@@ -2117,7 +2117,7 @@
         "blk": 0,
         "tov": 0
       },
-      "3": {
+      {
         "player_id": "5",
         "teamColor": "white",
         "twoMade": 2,
@@ -2131,7 +2131,7 @@
         "blk": 0,
         "tov": 1
       },
-      "4": {
+      {
         "player_id": "17",
         "teamColor": "white",
         "twoMade": 1,
@@ -2145,7 +2145,7 @@
         "blk": 0,
         "tov": 0
       },
-      "5": {
+      {
         "player_id": "39",
         "teamColor": "white",
         "twoMade": 2,
@@ -2159,13 +2159,13 @@
         "blk": 0,
         "tov": 0
       }
-    }
+    ]
   },
-  "15": {
+  {
     "id": "15",
     "date": "2025-04-27",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "13",
         "teamColor": "black",
         "twoMade": 0,
@@ -2179,7 +2179,7 @@
         "blk": 0,
         "tov": 0
       },
-      "2": {
+      {
         "player_id": "14",
         "teamColor": "black",
         "twoMade": 2,
@@ -2193,7 +2193,7 @@
         "blk": 0,
         "tov": 2
       },
-      "3": {
+      {
         "player_id": "6",
         "teamColor": "black",
         "twoMade": 0,
@@ -2207,7 +2207,7 @@
         "blk": 0,
         "tov": 0
       },
-      "4": {
+      {
         "player_id": "9",
         "teamColor": "black",
         "twoMade": 2,
@@ -2221,7 +2221,7 @@
         "blk": 0,
         "tov": 0
       },
-      "5": {
+      {
         "player_id": "40",
         "teamColor": "black",
         "twoMade": 0,
@@ -2235,9 +2235,9 @@
         "blk": 0,
         "tov": 1
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "34",
         "teamColor": "white",
         "twoMade": 1,
@@ -2251,7 +2251,7 @@
         "blk": 0,
         "tov": 0
       },
-      "2": {
+      {
         "player_id": "2",
         "teamColor": "white",
         "twoMade": 0,
@@ -2265,7 +2265,7 @@
         "blk": 0,
         "tov": 2
       },
-      "3": {
+      {
         "player_id": "1",
         "teamColor": "white",
         "twoMade": 1,
@@ -2279,7 +2279,7 @@
         "blk": 0,
         "tov": 0
       },
-      "4": {
+      {
         "player_id": "11",
         "teamColor": "white",
         "twoMade": 2,
@@ -2293,7 +2293,7 @@
         "blk": 0,
         "tov": 0
       },
-      "5": {
+      {
         "player_id": "28",
         "teamColor": "white",
         "twoMade": 0,
@@ -2307,13 +2307,13 @@
         "blk": 0,
         "tov": 0
       }
-    }
+    ]
   },
-  "16": {
+  {
     "id": "16",
     "date": "2025-04-27",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "13",
         "teamColor": "black",
         "twoMade": 0,
@@ -2327,7 +2327,7 @@
         "blk": 0,
         "tov": 0
       },
-      "2": {
+      {
         "player_id": "14",
         "teamColor": "black",
         "twoMade": 1,
@@ -2341,7 +2341,7 @@
         "blk": 0,
         "tov": 0
       },
-      "3": {
+      {
         "player_id": "6",
         "teamColor": "black",
         "twoMade": 0,
@@ -2355,7 +2355,7 @@
         "blk": 0,
         "tov": 0
       },
-      "4": {
+      {
         "player_id": "9",
         "teamColor": "black",
         "twoMade": 1,
@@ -2369,7 +2369,7 @@
         "blk": 0,
         "tov": 1
       },
-      "5": {
+      {
         "player_id": "40",
         "teamColor": "black",
         "twoMade": 0,
@@ -2383,9 +2383,9 @@
         "blk": 0,
         "tov": 0
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "8",
         "teamColor": "white",
         "twoMade": 1,
@@ -2399,7 +2399,7 @@
         "blk": 0,
         "tov": 0
       },
-      "2": {
+      {
         "player_id": "3",
         "teamColor": "white",
         "twoMade": 0,
@@ -2413,7 +2413,7 @@
         "blk": 0,
         "tov": 0
       },
-      "3": {
+      {
         "player_id": "5",
         "teamColor": "white",
         "twoMade": 2,
@@ -2427,7 +2427,7 @@
         "blk": 0,
         "tov": 1
       },
-      "4": {
+      {
         "player_id": "17",
         "teamColor": "white",
         "twoMade": 1,
@@ -2441,7 +2441,7 @@
         "blk": 0,
         "tov": 0
       },
-      "5": {
+      {
         "player_id": "39",
         "teamColor": "white",
         "twoMade": 0,
@@ -2455,13 +2455,13 @@
         "blk": 0,
         "tov": 1
       }
-    }
+    ]
   },
-  "17": {
+  {
     "id": "17",
     "date": "2025-04-27",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "18",
         "teamColor": "black",
         "twoMade": 0,
@@ -2475,7 +2475,7 @@
         "blk": 0,
         "tov": 0
       },
-      "2": {
+      {
         "player_id": "36",
         "teamColor": "black",
         "twoMade": 2,
@@ -2489,7 +2489,7 @@
         "blk": 0,
         "tov": 1
       },
-      "3": {
+      {
         "player_id": "7",
         "teamColor": "black",
         "twoMade": 1,
@@ -2503,7 +2503,7 @@
         "blk": 0,
         "tov": 0
       },
-      "4": {
+      {
         "player_id": "33",
         "teamColor": "black",
         "twoMade": 0,
@@ -2517,7 +2517,7 @@
         "blk": 2,
         "tov": 2
       },
-      "5": {
+      {
         "player_id": "38",
         "teamColor": "black",
         "twoMade": 0,
@@ -2531,9 +2531,9 @@
         "blk": 0,
         "tov": 2
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "8",
         "teamColor": "white",
         "twoMade": 0,
@@ -2547,7 +2547,7 @@
         "blk": 0,
         "tov": 2
       },
-      "2": {
+      {
         "player_id": "3",
         "teamColor": "white",
         "twoMade": 1,
@@ -2561,7 +2561,7 @@
         "blk": 0,
         "tov": 0
       },
-      "3": {
+      {
         "player_id": "5",
         "teamColor": "white",
         "twoMade": 1,
@@ -2575,7 +2575,7 @@
         "blk": 0,
         "tov": 0
       },
-      "4": {
+      {
         "player_id": "17",
         "teamColor": "white",
         "twoMade": 1,
@@ -2589,7 +2589,7 @@
         "blk": 0,
         "tov": 0
       },
-      "5": {
+      {
         "player_id": "39",
         "teamColor": "white",
         "twoMade": 0,
@@ -2603,13 +2603,13 @@
         "blk": 0,
         "tov": 0
       }
-    }
+    ]
   },
-  "18": {
+  {
     "id": "18",
     "date": "2025-04-27",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "13",
         "teamColor": "black",
         "twoMade": 0,
@@ -2623,7 +2623,7 @@
         "blk": 0,
         "tov": 1
       },
-      "2": {
+      {
         "player_id": "14",
         "teamColor": "black",
         "twoMade": 0,
@@ -2637,7 +2637,7 @@
         "blk": 0,
         "tov": 0
       },
-      "3": {
+      {
         "player_id": "6",
         "teamColor": "black",
         "twoMade": 0,
@@ -2651,7 +2651,7 @@
         "blk": 0,
         "tov": 2
       },
-      "4": {
+      {
         "player_id": "9",
         "teamColor": "black",
         "twoMade": 1,
@@ -2665,7 +2665,7 @@
         "blk": 1,
         "tov": 1
       },
-      "5": {
+      {
         "player_id": "40",
         "teamColor": "black",
         "twoMade": 2,
@@ -2679,9 +2679,9 @@
         "blk": 0,
         "tov": 0
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "34",
         "teamColor": "white",
         "twoMade": 1,
@@ -2695,7 +2695,7 @@
         "blk": 0,
         "tov": 0
       },
-      "2": {
+      {
         "player_id": "2",
         "teamColor": "white",
         "twoMade": 3,
@@ -2709,7 +2709,7 @@
         "blk": 0,
         "tov": 2
       },
-      "3": {
+      {
         "player_id": "1",
         "teamColor": "white",
         "twoMade": 0,
@@ -2723,7 +2723,7 @@
         "blk": 0,
         "tov": 1
       },
-      "4": {
+      {
         "player_id": "11",
         "teamColor": "white",
         "twoMade": 0,
@@ -2737,7 +2737,7 @@
         "blk": 0,
         "tov": 0
       },
-      "5": {
+      {
         "player_id": "28",
         "teamColor": "white",
         "twoMade": 0,
@@ -2751,13 +2751,13 @@
         "blk": 0,
         "tov": 1
       }
-    }
+    ]
   },
-  "19": {
+  {
     "id": "19",
     "date": "2025-04-27",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "8",
         "teamColor": "black",
         "twoMade": 0,
@@ -2771,7 +2771,7 @@
         "blk": 0,
         "tov": 0
       },
-      "2": {
+      {
         "player_id": "3",
         "teamColor": "black",
         "twoMade": 0,
@@ -2785,7 +2785,7 @@
         "blk": 0,
         "tov": 0
       },
-      "3": {
+      {
         "player_id": "5",
         "teamColor": "black",
         "twoMade": 0,
@@ -2799,7 +2799,7 @@
         "blk": 0,
         "tov": 0
       },
-      "4": {
+      {
         "player_id": "17",
         "teamColor": "black",
         "twoMade": 1,
@@ -2813,7 +2813,7 @@
         "blk": 0,
         "tov": 0
       },
-      "5": {
+      {
         "player_id": "39",
         "teamColor": "black",
         "twoMade": 1,
@@ -2827,9 +2827,9 @@
         "blk": 0,
         "tov": 1
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "34",
         "teamColor": "white",
         "twoMade": 0,
@@ -2843,7 +2843,7 @@
         "blk": 0,
         "tov": 0
       },
-      "2": {
+      {
         "player_id": "37",
         "teamColor": "white",
         "twoMade": 4,
@@ -2857,7 +2857,7 @@
         "blk": 0,
         "tov": 0
       },
-      "3": {
+      {
         "player_id": "1",
         "teamColor": "white",
         "twoMade": 0,
@@ -2871,7 +2871,7 @@
         "blk": 0,
         "tov": 0
       },
-      "4": {
+      {
         "player_id": "11",
         "teamColor": "white",
         "twoMade": 2,
@@ -2885,7 +2885,7 @@
         "blk": 0,
         "tov": 0
       },
-      "5": {
+      {
         "player_id": "28",
         "teamColor": "white",
         "twoMade": 0,
@@ -2899,13 +2899,13 @@
         "blk": 0,
         "tov": 0
       }
-    }
+    ]
   },
-  "20": {
+  {
     "id": "20",
     "date": "2025-04-27",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "13",
         "teamColor": "black",
         "twoMade": 0,
@@ -2919,7 +2919,7 @@
         "blk": 0,
         "tov": 0
       },
-      "2": {
+      {
         "player_id": "14",
         "teamColor": "black",
         "twoMade": 0,
@@ -2933,7 +2933,7 @@
         "blk": 0,
         "tov": 4
       },
-      "3": {
+      {
         "player_id": "6",
         "teamColor": "black",
         "twoMade": 0,
@@ -2947,7 +2947,7 @@
         "blk": 0,
         "tov": 1
       },
-      "4": {
+      {
         "player_id": "9",
         "teamColor": "black",
         "twoMade": 1,
@@ -2961,7 +2961,7 @@
         "blk": 0,
         "tov": 0
       },
-      "5": {
+      {
         "player_id": "40",
         "teamColor": "black",
         "twoMade": 2,
@@ -2975,9 +2975,9 @@
         "blk": 0,
         "tov": 1
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "18",
         "teamColor": "white",
         "twoMade": 0,
@@ -2991,7 +2991,7 @@
         "blk": 0,
         "tov": 1
       },
-      "2": {
+      {
         "player_id": "36",
         "teamColor": "white",
         "twoMade": 2,
@@ -3005,7 +3005,7 @@
         "blk": 0,
         "tov": 1
       },
-      "3": {
+      {
         "player_id": "7",
         "teamColor": "white",
         "twoMade": 0,
@@ -3019,7 +3019,7 @@
         "blk": 0,
         "tov": 1
       },
-      "4": {
+      {
         "player_id": "33",
         "teamColor": "white",
         "twoMade": 0,
@@ -3033,7 +3033,7 @@
         "blk": 0,
         "tov": 1
       },
-      "5": {
+      {
         "player_id": "38",
         "teamColor": "white",
         "twoMade": 2,
@@ -3047,13 +3047,13 @@
         "blk": 0,
         "tov": 1
       }
-    }
+    ]
   },
-  "21": {
+  {
     "id": "21",
     "date": "2025-04-27",
-    "teamA": {
-      "1": {
+    "teamA": [
+      {
         "player_id": "13",
         "teamColor": "black",
         "twoMade": 0,
@@ -3067,7 +3067,7 @@
         "blk": 0,
         "tov": 0
       },
-      "2": {
+      {
         "player_id": "14",
         "teamColor": "black",
         "twoMade": 0,
@@ -3081,7 +3081,7 @@
         "blk": 0,
         "tov": 0
       },
-      "3": {
+      {
         "player_id": "6",
         "teamColor": "black",
         "twoMade": 0,
@@ -3095,7 +3095,7 @@
         "blk": 0,
         "tov": 1
       },
-      "4": {
+      {
         "player_id": "9",
         "teamColor": "black",
         "twoMade": 0,
@@ -3109,7 +3109,7 @@
         "blk": 0,
         "tov": 2
       },
-      "5": {
+      {
         "player_id": "40",
         "teamColor": "black",
         "twoMade": 3,
@@ -3123,9 +3123,9 @@
         "blk": 1,
         "tov": 0
       }
-    },
-    "teamB": {
-      "1": {
+    ],
+    "teamB": [
+      {
         "player_id": "34",
         "teamColor": "white",
         "twoMade": 1,
@@ -3139,7 +3139,7 @@
         "blk": 0,
         "tov": 0
       },
-      "2": {
+      {
         "player_id": "37",
         "teamColor": "white",
         "twoMade": 0,
@@ -3153,7 +3153,7 @@
         "blk": 0,
         "tov": 0
       },
-      "3": {
+      {
         "player_id": "1",
         "teamColor": "white",
         "twoMade": 0,
@@ -3167,7 +3167,7 @@
         "blk": 0,
         "tov": 0
       },
-      "4": {
+      {
         "player_id": "11",
         "teamColor": "white",
         "twoMade": 2,
@@ -3181,7 +3181,7 @@
         "blk": 0,
         "tov": 0
       },
-      "5": {
+      {
         "player_id": "28",
         "teamColor": "white",
         "twoMade": 0,
@@ -3195,7 +3195,7 @@
         "blk": 0,
         "tov": 1
       },
-      "6": {
+      {
         "player_id": "2",
         "teamColor": "white",
         "twoMade": 1,
@@ -3209,7 +3209,7 @@
         "blk": 0,
         "tov": 1
       },
-      "7": {
+      {
         "player_id": "33",
         "teamColor": "white",
         "twoMade": 0,
@@ -3223,19 +3223,19 @@
         "blk": 1,
         "tov": 0
       }
-    }
+    ]
   },
-  "22": {"id": "22", "date": "2025-05-04", "teamA": {"1": {"player_id": "6", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 4, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 2}, "2": {"player_id": "1", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 1, "stl": 1, "blk": 0, "tov": 1}, "3": {"player_id": "2", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, "4": {"player_id": "34", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "5": {"player_id": "3", "teamColor": "black", "twoMade": 1, "twoAttempt": 5, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, "6": {"player_id": "10", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 3, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "7": {"player_id": "8", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 2, "oReb": 0, "dReb": 1, "ast": 0, "stl": 2, "blk": 0, "tov": 0}}, "teamB": {"1": {"player_id": "28", "teamColor": "white", "twoMade": 0, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 0, "stl": 1, "blk": 0, "tov": 0}, "2": {"player_id": "14", "teamColor": "white", "twoMade": 2, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 2, "ast": 1, "stl": 1, "blk": 0, "tov": 2}, "3": {"player_id": "9", "teamColor": "white", "twoMade": 1, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 3, "dReb": 3, "ast": 1, "stl": 0, "blk": 1, "tov": 2}, "4": {"player_id": "16", "teamColor": "white", "twoMade": 1, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, "5": {"player_id": "13", "teamColor": "white", "twoMade": 1, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}}}, 
-  "23": {"id": "23", "date": "2025-05-04", "teamA": {"1": {"player_id": "34", "teamColor": "black", "twoMade": 0, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 3, "dReb": 3, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "2": {"player_id": "41", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 3, "ast": 0, "stl": 0, "blk": 0, "tov": 2}, "3": {"player_id": "25", "teamColor": "black", "twoMade": 1, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 3, "ast": 1, "stl": 0, "blk": 0, "tov": 1}, "4": {"player_id": "5", "teamColor": "black", "twoMade": 4, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 0, "stl": 0, "blk": 1, "tov": 1}, "5": {"player_id": "11", "teamColor": "black", "twoMade": 0, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 3, "oReb": 1, "dReb": 0, "ast": 2, "stl": 0, "blk": 0, "tov": 0}}, "teamB": {"1": {"player_id": "28", "teamColor": "white", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 2, "stl": 0, "blk": 0, "tov": 1}, "2": {"player_id": "14", "teamColor": "white", "twoMade": 1, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "3": {"player_id": "9", "teamColor": "white", "twoMade": 0, "twoAttempt": 5, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 2, "ast": 0, "stl": 1, "blk": 0, "tov": 1}, "4": {"player_id": "16", "teamColor": "white", "twoMade": 1, "twoAttempt": 3, "threeMade": 1, "threeAttempt": 3, "oReb": 0, "dReb": 0, "ast": 0, "stl": 1, "blk": 0, "tov": 0}, "5": {"player_id": "13", "teamColor": "white", "twoMade": 1, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 3, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}}}, 
-  "24": {"id": "24", "date": "2025-05-04", "teamA": {"1": {"player_id": "1", "teamColor": "black", "twoMade": 2, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 2, "ast": 2, "stl": 2, "blk": 0, "tov": 1}, "2": {"player_id": "15", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 3, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, "3": {"player_id": "24", "teamColor": "black", "twoMade": 1, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, "4": {"player_id": "43", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 2, "ast": 0, "stl": 2, "blk": 0, "tov": 3}, "5": {"player_id": "44", "teamColor": "black", "twoMade": 3, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 0}}, "teamB": {"1": {"player_id": "26", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 1, "stl": 1, "blk": 0, "tov": 4}, "2": {"player_id": "42", "teamColor": "white", "twoMade": 0, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "3": {"player_id": "4", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, "4": {"player_id": "7", "teamColor": "white", "twoMade": 2, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 1, "blk": 0, "tov": 0}, "5": {"player_id": "30", "teamColor": "white", "twoMade": 0, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}}}, 
-  "25": {"id": "25", "date": "2025-05-04", "teamA": {"1": {"player_id": "1", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "2": {"player_id": "15", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 2, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, "3": {"player_id": "24", "teamColor": "black", "twoMade": 0, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 2, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "4": {"player_id": "43", "teamColor": "black", "twoMade": 1, "twoAttempt": 2, "threeMade": 1, "threeAttempt": 2, "oReb": 1, "dReb": 2, "ast": 1, "stl": 0, "blk": 0, "tov": 1}, "5": {"player_id": "44", "teamColor": "black", "twoMade": 1, "twoAttempt": 2, "threeMade": 1, "threeAttempt": 2, "oReb": 1, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}}, "teamB": {"1": {"player_id": "3", "teamColor": "white", "twoMade": 1, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, "2": {"player_id": "33", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "3": {"player_id": "8", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 1, "threeAttempt": 2, "oReb": 1, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "4": {"player_id": "6", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "5": {"player_id": "10", "teamColor": "white", "twoMade": 1, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}}}, 
-  "26": {"id": "26", "date": "2025-05-04", "teamA": {"1": {"player_id": "34", "teamColor": "black", "twoMade": 1, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 1, "ast": 1, "stl": 1, "blk": 0, "tov": 0}, "2": {"player_id": "41", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 2, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, "3": {"player_id": "25", "teamColor": "black", "twoMade": 0, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 1, "stl": 1, "blk": 0, "tov": 0}, "4": {"player_id": "5", "teamColor": "black", "twoMade": 2, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 3, "oReb": 0, "dReb": 5, "ast": 2, "stl": 0, "blk": 0, "tov": 0}, "5": {"player_id": "11", "teamColor": "black", "twoMade": 3, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 1, "stl": 1, "blk": 0, "tov": 1}}, "teamB": {"1": {"player_id": "28", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 1, "blk": 0, "tov": 0}, "2": {"player_id": "14", "teamColor": "white", "twoMade": 0, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "3": {"player_id": "9", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 1, "ast": 0, "stl": 1, "blk": 1, "tov": 2}, "4": {"player_id": "16", "teamColor": "white", "twoMade": 1, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 1, "oReb": 2, "dReb": 2, "ast": 1, "stl": 0, "blk": 0, "tov": 1}, "5": {"player_id": "13", "teamColor": "white", "twoMade": 1, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}}}, 
-  "27": {"id": "27", "date": "2025-05-04", "teamA": {"1": {"player_id": "34", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "2": {"player_id": "41", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, "3": {"player_id": "25", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, "4": {"player_id": "5", "teamColor": "black", "twoMade": 1, "twoAttempt": 1, "threeMade": 2, "threeAttempt": 4, "oReb": 1, "dReb": 0, "ast": 1, "stl": 1, "blk": 0, "tov": 0}, "5": {"player_id": "11", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 1, "threeAttempt": 3, "oReb": 1, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 0}}, "teamB": {"1": {"player_id": "26", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 2, "stl": 0, "blk": 0, "tov": 0}, "2": {"player_id": "42", "teamColor": "white", "twoMade": 0, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, "3": {"player_id": "4", "teamColor": "white", "twoMade": 1, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, "4": {"player_id": "7", "teamColor": "white", "twoMade": 1, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, "5": {"player_id": "30", "teamColor": "white", "twoMade": 0, "twoAttempt": 0, "threeMade": 1, "threeAttempt": 2, "oReb": 0, "dReb": 0, "ast": 0, "stl": 1, "blk": 0, "tov": 0}}}, 
-  "28": {"id": "28", "date": "2025-05-04", "teamA": {"1": {"player_id": "1", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 1}, "2": {"player_id": "15", "teamColor": "black", "twoMade": 1, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 2, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "3": {"player_id": "24", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "4": {"player_id": "43", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "5": {"player_id": "44", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 1}}, "teamB": {"1": {"player_id": "3", "teamColor": "white", "twoMade": 1, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "2": {"player_id": "33", "teamColor": "white", "twoMade": 1, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, "3": {"player_id": "8", "teamColor": "white", "twoMade": 0, "twoAttempt": 0, "threeMade": 1, "threeAttempt": 1, "oReb": 0, "dReb": 2, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, "4": {"player_id": "6", "teamColor": "white", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 0, "ast": 2, "stl": 0, "blk": 0, "tov": 0}, "5": {"player_id": "10", "teamColor": "white", "twoMade": 2, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}}}, 
-  "29": {"id": "29", "date": "2025-05-04", "teamA": {"1": {"player_id": "28", "teamColor": "black", "twoMade": 0, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 2, "ast": 0, "stl": 1, "blk": 0, "tov": 2}, "2": {"player_id": "14", "teamColor": "black", "twoMade": 1, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, "3": {"player_id": "9", "teamColor": "black", "twoMade": 0, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 3, "ast": 1, "stl": 0, "blk": 0, "tov": 1}, "4": {"player_id": "16", "teamColor": "black", "twoMade": 1, "twoAttempt": 2, "threeMade": 1, "threeAttempt": 2, "oReb": 3, "dReb": 1, "ast": 1, "stl": 2, "blk": 0, "tov": 0}, "5": {"player_id": "13", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}}, "teamB": {"1": {"player_id": "3", "teamColor": "white", "twoMade": 2, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 1, "blk": 0, "tov": 0}, "2": {"player_id": "33", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 1, "stl": 3, "blk": 0, "tov": 1}, "3": {"player_id": "8", "teamColor": "white", "twoMade": 0, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 3, "oReb": 2, "dReb": 1, "ast": 1, "stl": 0, "blk": 0, "tov": 2}, "4": {"player_id": "6", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 2, "threeAttempt": 4, "oReb": 0, "dReb": 2, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, "5": {"player_id": "10", "teamColor": "white", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 2, "ast": 0, "stl": 0, "blk": 0, "tov": 0}}}, 
-  "30": {"id": "30", "date": "2025-05-04", "teamA": {"1": {"player_id": "34", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 3, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, "2": {"player_id": "41", "teamColor": "black", "twoMade": 1, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 3, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "3": {"player_id": "25", "teamColor": "black", "twoMade": 0, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 2, "dReb": 0, "ast": 1, "stl": 1, "blk": 0, "tov": 0}, "4": {"player_id": "5", "teamColor": "black", "twoMade": 1, "twoAttempt": 4, "threeMade": 1, "threeAttempt": 2, "oReb": 2, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 1}, "5": {"player_id": "11", "teamColor": "black", "twoMade": 2, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}}, "teamB": {"1": {"player_id": "26", "teamColor": "white", "twoMade": 0, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 1, "ast": 0, "stl": 1, "blk": 0, "tov": 0}, "2": {"player_id": "42", "teamColor": "white", "twoMade": 1, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, "3": {"player_id": "4", "teamColor": "white", "twoMade": 1, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "4": {"player_id": "7", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "5": {"player_id": "30", "teamColor": "white", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 3, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}}}, 
-  "31": {"id": "31", "date": "2025-05-04", "teamA": {"1": {"player_id": "34", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 2, "ast": 0, "stl": 1, "blk": 0, "tov": 0}, "2": {"player_id": "41", "teamColor": "black", "twoMade": 0, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 1, "blk": 0, "tov": 1}, "3": {"player_id": "25", "teamColor": "black", "twoMade": 3, "twoAttempt": 5, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, "4": {"player_id": "5", "teamColor": "black", "twoMade": 1, "twoAttempt": 1, "threeMade": 1, "threeAttempt": 1, "oReb": 0, "dReb": 1, "ast": 1, "stl": 1, "blk": 0, "tov": 0}, "5": {"player_id": "11", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 1, "oReb": 1, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 2}}, "teamB": {"1": {"player_id": "1", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 2, "stl": 1, "blk": 0, "tov": 2}, "2": {"player_id": "15", "teamColor": "white", "twoMade": 1, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 3, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, "3": {"player_id": "24", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "4": {"player_id": "43", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 2, "oReb": 0, "dReb": 0, "ast": 0, "stl": 2, "blk": 0, "tov": 1}, "5": {"player_id": "44", "teamColor": "white", "twoMade": 0, "twoAttempt": 2, "threeMade": 1, "threeAttempt": 2, "oReb": 1, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}}}, 
-  "32": {"id": "32", "date": "2025-05-04", "teamA": {"1": {"player_id": "28", "teamColor": "black", "twoMade": 2, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, "2": {"player_id": "14", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, "3": {"player_id": "9", "teamColor": "black", "twoMade": 1, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 2, "dReb": 2, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, "4": {"player_id": "16", "teamColor": "black", "twoMade": 3, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, "5": {"player_id": "13", "teamColor": "black", "twoMade": 0, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}}, "teamB": {"1": {"player_id": "3", "teamColor": "white", "twoMade": 0, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 1, "blk": 0, "tov": 0}, "2": {"player_id": "33", "teamColor": "white", "twoMade": 1, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "3": {"player_id": "8", "teamColor": "white", "twoMade": 1, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "4": {"player_id": "6", "teamColor": "white", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 2, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "5": {"player_id": "10", "teamColor": "white", "twoMade": 1, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 2, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}}}, 
-  "33": {"id": "33", "date": "2025-05-04", "teamA": {"1": {"player_id": "28", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 2}, "2": {"player_id": "14", "teamColor": "black", "twoMade": 2, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 4, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, "3": {"player_id": "9", "teamColor": "black", "twoMade": 1, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 2, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, "4": {"player_id": "16", "teamColor": "black", "twoMade": 2, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 1, "ast": 1, "stl": 1, "blk": 2, "tov": 0}, "5": {"player_id": "13", "teamColor": "black", "twoMade": 0, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}}, "teamB": {"1": {"player_id": "26", "teamColor": "white", "twoMade": 1, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 1, "oReb": 1, "dReb": 1, "ast": 1, "stl": 1, "blk": 0, "tov": 1}, "2": {"player_id": "42", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 2, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "3": {"player_id": "4", "teamColor": "white", "twoMade": 2, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "4": {"player_id": "7", "teamColor": "white", "twoMade": 0, "twoAttempt": 5, "threeMade": 0, "threeAttempt": 0, "oReb": 2, "dReb": 3, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "5": {"player_id": "30", "teamColor": "white", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 3, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}}}, 
-  "34": {"id": "34", "date": "2025-05-04", "teamA": {"1": {"player_id": "34", "teamColor": "black", "twoMade": 0, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 2, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "2": {"player_id": "41", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 2, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, "3": {"player_id": "25", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, "4": {"player_id": "5", "teamColor": "black", "twoMade": 1, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 4, "oReb": 1, "dReb": 3, "ast": 1, "stl": 0, "blk": 0, "tov": 2}, "5": {"player_id": "11", "teamColor": "black", "twoMade": 1, "twoAttempt": 3, "threeMade": 1, "threeAttempt": 1, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}}, "teamB": {"1": {"player_id": "2", "teamColor": "white", "twoMade": 1, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 3, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "2": {"player_id": "15", "teamColor": "white", "twoMade": 0, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 3, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "3": {"player_id": "24", "teamColor": "white", "twoMade": 1, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 2, "dReb": 2, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, "4": {"player_id": "43", "teamColor": "white", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 2, "oReb": 0, "dReb": 0, "ast": 2, "stl": 2, "blk": 0, "tov": 0}, "5": {"player_id": "44", "teamColor": "white", "twoMade": 1, "twoAttempt": 5, "threeMade": 1, "threeAttempt": 1, "oReb": 2, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 1}}}
-}
+  {"id": "23", "date": "2025-05-04", "teamA": [{"player_id": "34", "teamColor": "black", "twoMade": 0, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 3, "dReb": 3, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "41", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 3, "ast": 0, "stl": 0, "blk": 0, "tov": 2}, {"player_id": "25", "teamColor": "black", "twoMade": 1, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 3, "ast": 1, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "5", "teamColor": "black", "twoMade": 4, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 0, "stl": 0, "blk": 1, "tov": 1}, {"player_id": "11", "teamColor": "black", "twoMade": 0, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 3, "oReb": 1, "dReb": 0, "ast": 2, "stl": 0, "blk": 0, "tov": 0}], "teamB": [{"player_id": "28", "teamColor": "white", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 2, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "14", "teamColor": "white", "twoMade": 1, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "9", "teamColor": "white", "twoMade": 0, "twoAttempt": 5, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 2, "ast": 0, "stl": 1, "blk": 0, "tov": 1}, {"player_id": "16", "teamColor": "white", "twoMade": 1, "twoAttempt": 3, "threeMade": 1, "threeAttempt": 3, "oReb": 0, "dReb": 0, "ast": 0, "stl": 1, "blk": 0, "tov": 0}, {"player_id": "13", "teamColor": "white", "twoMade": 1, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 3, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}]}, 
+  {"id": "24", "date": "2025-05-04", "teamA": [{"player_id": "1", "teamColor": "black", "twoMade": 2, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 2, "ast": 2, "stl": 2, "blk": 0, "tov": 1}, {"player_id": "15", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 3, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "24", "teamColor": "black", "twoMade": 1, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "43", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 2, "ast": 0, "stl": 2, "blk": 0, "tov": 3}, {"player_id": "44", "teamColor": "black", "twoMade": 3, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 0}], "teamB": [{"player_id": "26", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 1, "stl": 1, "blk": 0, "tov": 4}, {"player_id": "42", "teamColor": "white", "twoMade": 0, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "4", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "7", "teamColor": "white", "twoMade": 2, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 1, "blk": 0, "tov": 0}, {"player_id": "30", "teamColor": "white", "twoMade": 0, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}]}, 
+  {"id": "25", "date": "2025-05-04", "teamA": [{"player_id": "1", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "15", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 2, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "24", "teamColor": "black", "twoMade": 0, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 2, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "43", "teamColor": "black", "twoMade": 1, "twoAttempt": 2, "threeMade": 1, "threeAttempt": 2, "oReb": 1, "dReb": 2, "ast": 1, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "44", "teamColor": "black", "twoMade": 1, "twoAttempt": 2, "threeMade": 1, "threeAttempt": 2, "oReb": 1, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}], "teamB": [{"player_id": "3", "teamColor": "white", "twoMade": 1, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "33", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "8", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 1, "threeAttempt": 2, "oReb": 1, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "6", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "10", "teamColor": "white", "twoMade": 1, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}]}, 
+  {"id": "22", "date": "2025-05-04", "teamA": [{"player_id": "6", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 4, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 2}, {"player_id": "1", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 1, "stl": 1, "blk": 0, "tov": 1}, {"player_id": "2", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "34", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "3", "teamColor": "black", "twoMade": 1, "twoAttempt": 5, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "10", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 3, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "8", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 2, "oReb": 0, "dReb": 1, "ast": 0, "stl": 2, "blk": 0, "tov": 0}], "teamB": [{"player_id": "28", "teamColor": "white", "twoMade": 0, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 0, "stl": 1, "blk": 0, "tov": 0}, {"player_id": "14", "teamColor": "white", "twoMade": 2, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 2, "ast": 1, "stl": 1, "blk": 0, "tov": 2}, {"player_id": "9", "teamColor": "white", "twoMade": 1, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 3, "dReb": 3, "ast": 1, "stl": 0, "blk": 1, "tov": 2}, {"player_id": "16", "teamColor": "white", "twoMade": 1, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "13", "teamColor": "white", "twoMade": 1, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}]}, 
+  {"id": "26", "date": "2025-05-04", "teamA": [{"player_id": "34", "teamColor": "black", "twoMade": 1, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 1, "ast": 1, "stl": 1, "blk": 0, "tov": 0}, {"player_id": "41", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 2, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "25", "teamColor": "black", "twoMade": 0, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 1, "stl": 1, "blk": 0, "tov": 0}, {"player_id": "5", "teamColor": "black", "twoMade": 2, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 3, "oReb": 0, "dReb": 5, "ast": 2, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "11", "teamColor": "black", "twoMade": 3, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 1, "stl": 1, "blk": 0, "tov": 1}], "teamB": [{"player_id": "28", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 1, "blk": 0, "tov": 0}, {"player_id": "14", "teamColor": "white", "twoMade": 0, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "9", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 1, "ast": 0, "stl": 1, "blk": 1, "tov": 2}, {"player_id": "16", "teamColor": "white", "twoMade": 1, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 1, "oReb": 2, "dReb": 2, "ast": 1, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "13", "teamColor": "white", "twoMade": 1, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}]}, 
+  {"id": "27", "date": "2025-05-04", "teamA": [{"player_id": "34", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "41", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "25", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "5", "teamColor": "black", "twoMade": 1, "twoAttempt": 1, "threeMade": 2, "threeAttempt": 4, "oReb": 1, "dReb": 0, "ast": 1, "stl": 1, "blk": 0, "tov": 0}, {"player_id": "11", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 1, "threeAttempt": 3, "oReb": 1, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 0}], "teamB": [{"player_id": "26", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 2, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "42", "teamColor": "white", "twoMade": 0, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "4", "teamColor": "white", "twoMade": 1, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "7", "teamColor": "white", "twoMade": 1, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "30", "teamColor": "white", "twoMade": 0, "twoAttempt": 0, "threeMade": 1, "threeAttempt": 2, "oReb": 0, "dReb": 0, "ast": 0, "stl": 1, "blk": 0, "tov": 0}]}, 
+  {"id": "28", "date": "2025-05-04", "teamA": [{"player_id": "1", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "15", "teamColor": "black", "twoMade": 1, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 2, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "24", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "43", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "44", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 1}], "teamB": [{"player_id": "3", "teamColor": "white", "twoMade": 1, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "33", "teamColor": "white", "twoMade": 1, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "8", "teamColor": "white", "twoMade": 0, "twoAttempt": 0, "threeMade": 1, "threeAttempt": 1, "oReb": 0, "dReb": 2, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "6", "teamColor": "white", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 0, "ast": 2, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "10", "teamColor": "white", "twoMade": 2, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}]}, 
+  {"id": "29", "date": "2025-05-04", "teamA": [{"player_id": "28", "teamColor": "black", "twoMade": 0, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 2, "ast": 0, "stl": 1, "blk": 0, "tov": 2}, {"player_id": "14", "teamColor": "black", "twoMade": 1, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "9", "teamColor": "black", "twoMade": 0, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 3, "ast": 1, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "16", "teamColor": "black", "twoMade": 1, "twoAttempt": 2, "threeMade": 1, "threeAttempt": 2, "oReb": 3, "dReb": 1, "ast": 1, "stl": 2, "blk": 0, "tov": 0}, {"player_id": "13", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}], "teamB": [{"player_id": "3", "teamColor": "white", "twoMade": 2, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 1, "blk": 0, "tov": 0}, {"player_id": "33", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 1, "stl": 3, "blk": 0, "tov": 1}, {"player_id": "8", "teamColor": "white", "twoMade": 0, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 3, "oReb": 2, "dReb": 1, "ast": 1, "stl": 0, "blk": 0, "tov": 2}, {"player_id": "6", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 2, "threeAttempt": 4, "oReb": 0, "dReb": 2, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "10", "teamColor": "white", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 2, "ast": 0, "stl": 0, "blk": 0, "tov": 0}]}, 
+  {"id": "30", "date": "2025-05-04", "teamA": [{"player_id": "34", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 3, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "41", "teamColor": "black", "twoMade": 1, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 3, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "25", "teamColor": "black", "twoMade": 0, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 2, "dReb": 0, "ast": 1, "stl": 1, "blk": 0, "tov": 0}, {"player_id": "5", "teamColor": "black", "twoMade": 1, "twoAttempt": 4, "threeMade": 1, "threeAttempt": 2, "oReb": 2, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "11", "teamColor": "black", "twoMade": 2, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}], "teamB": [{"player_id": "26", "teamColor": "white", "twoMade": 0, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 1, "ast": 0, "stl": 1, "blk": 0, "tov": 0}, {"player_id": "42", "teamColor": "white", "twoMade": 1, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "4", "teamColor": "white", "twoMade": 1, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "7", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "30", "teamColor": "white", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 3, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}]}, 
+  {"id": "31", "date": "2025-05-04", "teamA": [{"player_id": "34", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 2, "ast": 0, "stl": 1, "blk": 0, "tov": 0}, {"player_id": "41", "teamColor": "black", "twoMade": 0, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 1, "blk": 0, "tov": 1}, {"player_id": "25", "teamColor": "black", "twoMade": 3, "twoAttempt": 5, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "5", "teamColor": "black", "twoMade": 1, "twoAttempt": 1, "threeMade": 1, "threeAttempt": 1, "oReb": 0, "dReb": 1, "ast": 1, "stl": 1, "blk": 0, "tov": 0}, {"player_id": "11", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 1, "oReb": 1, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 2}], "teamB": [{"player_id": "1", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 2, "stl": 1, "blk": 0, "tov": 2}, {"player_id": "15", "teamColor": "white", "twoMade": 1, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 3, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "24", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "43", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 2, "oReb": 0, "dReb": 0, "ast": 0, "stl": 2, "blk": 0, "tov": 1}, {"player_id": "44", "teamColor": "white", "twoMade": 0, "twoAttempt": 2, "threeMade": 1, "threeAttempt": 2, "oReb": 1, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}]}, 
+  {"id": "32", "date": "2025-05-04", "teamA": [{"player_id": "28", "teamColor": "black", "twoMade": 2, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "14", "teamColor": "black", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "9", "teamColor": "black", "twoMade": 1, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 2, "dReb": 2, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "16", "teamColor": "black", "twoMade": 3, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "13", "teamColor": "black", "twoMade": 0, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}], "teamB": [{"player_id": "3", "teamColor": "white", "twoMade": 0, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 1, "ast": 0, "stl": 1, "blk": 0, "tov": 0}, {"player_id": "33", "teamColor": "white", "twoMade": 1, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "8", "teamColor": "white", "twoMade": 1, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "6", "teamColor": "white", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 2, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "10", "teamColor": "white", "twoMade": 1, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 2, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}]}, 
+  {"id": "33", "date": "2025-05-04", "teamA": [{"player_id": "28", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 1, "stl": 0, "blk": 0, "tov": 2}, {"player_id": "14", "teamColor": "black", "twoMade": 2, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 4, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "9", "teamColor": "black", "twoMade": 1, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 2, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "16", "teamColor": "black", "twoMade": 2, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 1, "ast": 1, "stl": 1, "blk": 2, "tov": 0}, {"player_id": "13", "teamColor": "black", "twoMade": 0, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}], "teamB": [{"player_id": "26", "teamColor": "white", "twoMade": 1, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 1, "oReb": 1, "dReb": 1, "ast": 1, "stl": 1, "blk": 0, "tov": 1}, {"player_id": "42", "teamColor": "white", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 2, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "4", "teamColor": "white", "twoMade": 2, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 1, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "7", "teamColor": "white", "twoMade": 0, "twoAttempt": 5, "threeMade": 0, "threeAttempt": 0, "oReb": 2, "dReb": 3, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "30", "teamColor": "white", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 3, "oReb": 0, "dReb": 1, "ast": 0, "stl": 0, "blk": 0, "tov": 0}]}, 
+  {"id": "34", "date": "2025-05-04", "teamA": [{"player_id": "34", "teamColor": "black", "twoMade": 0, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 2, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "41", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 2, "ast": 1, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "25", "teamColor": "black", "twoMade": 0, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 1, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 1}, {"player_id": "5", "teamColor": "black", "twoMade": 1, "twoAttempt": 3, "threeMade": 0, "threeAttempt": 4, "oReb": 1, "dReb": 3, "ast": 1, "stl": 0, "blk": 0, "tov": 2}, {"player_id": "11", "teamColor": "black", "twoMade": 1, "twoAttempt": 3, "threeMade": 1, "threeAttempt": 1, "oReb": 0, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 0}], "teamB": [{"player_id": "2", "teamColor": "white", "twoMade": 1, "twoAttempt": 1, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 3, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "15", "teamColor": "white", "twoMade": 0, "twoAttempt": 2, "threeMade": 0, "threeAttempt": 0, "oReb": 0, "dReb": 3, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "24", "teamColor": "white", "twoMade": 1, "twoAttempt": 4, "threeMade": 0, "threeAttempt": 0, "oReb": 2, "dReb": 2, "ast": 0, "stl": 0, "blk": 0, "tov": 0}, {"player_id": "43", "teamColor": "white", "twoMade": 0, "twoAttempt": 0, "threeMade": 0, "threeAttempt": 2, "oReb": 0, "dReb": 0, "ast": 2, "stl": 2, "blk": 0, "tov": 0}, {"player_id": "44", "teamColor": "white", "twoMade": 1, "twoAttempt": 5, "threeMade": 1, "threeAttempt": 1, "oReb": 2, "dReb": 0, "ast": 0, "stl": 0, "blk": 0, "tov": 1}]}
+]

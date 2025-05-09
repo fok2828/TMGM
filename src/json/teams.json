@@ -1,0 +1,43 @@
+[
+    {
+      "id": "1",
+      "logo": "team1.jpg",
+      "name_zh": "忠孝101砲兵 101",
+      "name_en": "artillery",
+      "games": 5,
+      "wins": 3
+    },
+    {
+      "id": "2",
+      "logo": "team2.jpg",
+      "name_zh": "北投陽明火山龍",
+      "name_en": "Yangmingshan volcano dragon",
+      "games": 6,
+      "wins": 5
+    },
+    {
+        "id": "3",
+        "logo": "team3.jpg",
+        "name_zh": "西門艋舺蟒蛇",
+        "name_en": "Ximending python",
+        "games": 6,
+        "wins": 3
+    },
+    {
+        "id": "4",
+        "logo": "team4.jpg",
+        "name_zh": "內湖科學怪人",
+        "name_en": "Neihu Frankenstein",
+        "games": 5,
+        "wins": 2
+    },
+    {
+        "id": "5",
+        "logo": "team5.jpg",
+        "name_zh": "中山光點彗星",
+        "name_en": "Zhongshan comet",
+        "games": 4,
+        "wins": 0
+    }
+]
+  
