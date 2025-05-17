@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 //import { useNavigate } from "react-router-dom";
 import teamsData from "../json/teams.json";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
+import allScoresData from "../json/scores.json";
 
 type Team = {
   id: string;
@@ -18,20 +19,13 @@ export const Team: React.FC = () => {
   //const navigate = useNavigate();
   const [teams, setTeams] = useState<Team[]>([]);
   const [sortType, setSortType] = useState<SortType>("winRate");
+  const scores = Object.values(allScoresData)
   const logos = import.meta.glob("../assets/img/*.{png,jpg,jpeg,webp}", { eager: true, import: "default" });
 
   useEffect(() => {
     // 模擬 fetch，實際情況可用 fetch('/data/teams.json')
     setTeams(teamsData);
   }, []);
-
-  const sortedTeams = [...teams].sort((a, b) => {
-    if (sortType === "winRate") {
-      return b.wins / b.games - a.wins / a.games;
-    } else {
-      return b.wins - a.wins;
-    } 
-  });
 
   const getLogo = (logog_file_name: string) => {
     const logo = logos[`../assets/img/${logog_file_name}`];
@@ -42,6 +36,53 @@ export const Team: React.FC = () => {
         return ""
     }
   };
+
+  const countTeamsWins = () => {
+    let newTeamRecords = [...teams]
+    
+    scores.forEach((score) => {
+      if (score.teamA[0].team_id !== "" ){
+        const teamIdList = [score.teamA[0].team_id.toString(), score.teamB[0].team_id.toString()]
+        newTeamRecords = newTeamRecords.map((team) => {
+          if(teamIdList.includes(team.id.toString())){
+            return {...team, games: team.games + 1}
+          }else{
+            return team
+          }
+        })
+        const teamAScores = score.teamA.reduce((sum, p) => sum + Number(p.twoMade)*2 + Number(p.threeMade)*3, 0)
+        const teamBScores = score.teamB.reduce((sum, p) => sum + Number(p.twoMade)*2 + Number(p.threeMade)*3, 0)  
+        if (teamAScores > teamBScores){
+          newTeamRecords = newTeamRecords.map((team) => {
+            if(team.id.toString() === score.teamA[0].team_id.toString()){
+              return {...team, wins: team.wins + 1}
+            }else{
+              return team
+            }
+          })
+        }else{
+          newTeamRecords = newTeamRecords.map((team) => {
+            if(team.id.toString() === score.teamB[0].team_id.toString()){
+              return {...team, wins: team.wins + 1}
+            }else{
+              return team
+            }
+          })
+        }
+      }
+    })
+  
+    return newTeamRecords
+  };
+
+  const sortedTeams = [...countTeamsWins()].sort((a, b) => {
+    if (sortType === "winRate") {
+      return b.wins / b.games - a.wins / a.games;
+    } else {
+      return b.wins - a.wins;
+    } 
+  });
+
 
   return (
     <div className="p-4 space-y-6">

@@ -13,6 +13,7 @@ import {
 import allRoundData from "../json/rounds.json";
 import allScoreData from "../json/scores.json";
 import allPlayerData from "../json/players.json";
+import allTeamData from "../json/teams.json";
   
 export const RoundDetail = () => {
     const {round_id} = useParams<{ round_id: string }>();
@@ -25,8 +26,14 @@ export const RoundDetail = () => {
         date: string;
         type: string;
     }
+    interface Team {
+        id: string;
+        name_zh: string;
+        logo: string;
+    }
     interface Player {
         player_id: string;
+        team_id:string;
         teamColor: string;
         twoMade: number;
         twoAttempt: number;
@@ -38,8 +45,7 @@ export const RoundDetail = () => {
         stl: number;
         blk: number;
         tov: number;
-    }
-  
+    }  
     interface Score {
         id: string;
         date: string;
@@ -48,12 +54,14 @@ export const RoundDetail = () => {
     }
 
     const rounds:Round[] = Object.values(allRoundData);
+    const teams:Team[] = Object.values(allTeamData);
     const scores:Score[] = Object.values(allScoreData).map((score) => ({
         id: score.id,
         date: score.date,
         teamA: Object.values(score.teamA).map((player) => ({
             player_id: player.player_id,
             teamColor: player.teamColor,// Convert score to a number
+            team_id: player.team_id,
             twoMade: Number(player.twoMade),
             twoAttempt: Number(player.twoAttempt),
             threeMade: Number(player.threeMade),
@@ -68,6 +76,7 @@ export const RoundDetail = () => {
         teamB: Object.values(score.teamB).map((player) => ({
             player_id: player.player_id,
             teamColor: player.teamColor, // Convert score to a number
+            team_id: player.team_id,
             twoMade: Number(player.twoMade),
             twoAttempt: Number(player.twoAttempt),
             threeMade: Number(player.threeMade),
@@ -115,7 +124,13 @@ export const RoundDetail = () => {
     };
     const teamASummary = calcTeamSummary(teamA)
     const teamBSummary = calcTeamSummary(teamB)
-    
+    // const teamColorMapping = {
+    //     "1": "#e8650b",
+    //     "2": "#693d17",
+    //     "3": "#1f504a",
+    //     "4": "#10256a",
+    //     "5": "#1d83ba"
+    // }
     // Chart Data
     const chartData = resultCompareData.map((barName) => {
         if (barName==="得分") {
@@ -146,7 +161,7 @@ export const RoundDetail = () => {
             return {
                 name: barName,
                 teamA: teamASummary.blk,
-                teamB: teamASummary.blk
+                teamB: teamBSummary.blk
             }
         }else if (barName==="失誤") {
             return {
@@ -158,7 +173,7 @@ export const RoundDetail = () => {
     })
 
     // 比分排序
-    const teamsSorted = [{ ...teamA, score: teamASummary.points, name:teamAName, players:teamA}, { ...teamB, score: teamBSummary.points, name:teamBName, players:teamB }];
+    const teamsSorted = [{ score: teamASummary.points, name:teamAName, players:teamA}, { score: teamBSummary.points, name:teamBName, players:teamB }];
 
     const getPlayerName = (player_id:string)=>{
         const playerInfo = playerData.filter((player) => player.id===player_id)
@@ -166,6 +181,16 @@ export const RoundDetail = () => {
             return playerInfo[0].name
         }
         return ""
+    }
+
+    const getTeamName = (players:Player[])=>{
+        const teamColorZh = players[0].teamColor === 'black' ? "黑隊" : "白隊" 
+        const mappingTeam = teams.find(t => t.id === players[0].team_id.toString())
+        if (mappingTeam !== undefined) {
+            return mappingTeam.name_zh + ' ( ' + teamColorZh + ' )';
+        } else {
+            return teamColorZh
+        }
     }
 
     return (
@@ -199,7 +224,7 @@ export const RoundDetail = () => {
                 return (
                     <div key={idx} className="mb-10 mt-10">
                         <h2 className="text-xl font-semibold mb-2">
-                            {team.name}（{team.score} 分）
+                            {getTeamName(team.players)}（{team.score} 分）
                         </h2>
                         <div className="overflow-x-auto">
                             <table className="table w-full text-sm">

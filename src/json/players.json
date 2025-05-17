@@ -306,5 +306,26 @@
         "name_line":"eric",
         "pay_way":"once",
         "position":"球員"
+    },
+    {
+        "id": "45",
+        "name":"登山 Daniel",
+        "name_line":"Daniel Shih",
+        "pay_way":"once",
+        "position":"球員"
+    },
+    {
+        "id": "46",
+        "name":"鄭匡佑",
+        "name_line":"Kuangyu | 鄭匡佑",
+        "pay_way":"once",
+        "position":"球員"
+    },
+    {
+        "id": "47",
+        "name":"小刀",
+        "name_line":"小刀 📸 🏀 🏋️ 🏄 盧昇億",
+        "pay_way":"once",
+        "position":"球員"
     }
 ]
