@@ -289,7 +289,7 @@
     {
         "id": "42",
         "name":"日本國寶",
-        "name_line":"",
+        "name_line":"金子泰丈Yasuta KANEKO",
         "pay_way":"once",
         "position":"球員"
     },
@@ -339,6 +339,13 @@
         "id": "49",
         "name":"佑宗",
         "name_line":"yutsung",
+        "pay_way":"once",
+        "position":"球員"
+    },
+    {
+        "id": "50",
+        "name":"阿倫",
+        "name_line":"信義🏠-紀又倫（古亭）",
         "pay_way":"once",
         "position":"球員"
     }
