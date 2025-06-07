@@ -230,7 +230,7 @@ export const RoundDetail = () => {
                             <table className="table w-full text-sm">
                             <thead>
                                 <tr>
-                                <th>球員</th>
+                                <th className="whitespace-nowrap w-auto">球員</th>
                                 <th>得分</th>
                                 <th>2分(命中/出手)</th>
                                 <th>3分(命中/出手)</th>
@@ -247,7 +247,7 @@ export const RoundDetail = () => {
                                 <tr key={i}
                                     className="cursor-pointer hover:bg-base-200"
                                     onClick={() => navigate(`/players/${p.player_id}`)}>
-                                    <td>{getPlayerName(p.player_id)}</td>
+                                    <td className="whitespace-nowrap w-auto">{getPlayerName(p.player_id)}</td>
                                     <td>{p.twoMade*2 + p.threeMade*3}</td>
                                     <td>{p.twoMade} / {p.twoAttempt}</td>
                                     <td>{p.threeMade} / {p.threeAttempt}</td>
