@@ -355,5 +355,12 @@
         "name_line":"mimi",
         "pay_way":"once",
         "position":"球員"
+    },
+    {
+        "id": "52",
+        "name":"fok",
+        "name_line":"fok(YC)",
+        "pay_way":"once",
+        "position":"球員"
     }
 ]
