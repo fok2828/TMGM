@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "place_id": 1,
+    "place_name": "長安國小",
+    "place_address": "新北市新莊區長安路一段1號 (體育館位於長安國小停車場旁）。",
+    "place_time": "週日 08:00 AM ~ 10:00 AM",
+    "place_traffic_mrt": "松江南京站（2或3號出口）。",
+    "place_traffic_bus": "多條路線可達，詳情可參考臺北市公共運輸資訊。",
+    "place_traffic_carpool": "長安國小地下停車場",
+    "place_gmap_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57832.571565717815!2d121.46427623125004!3d25.049825400000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9641726d737%3A0x9844661b477a423b!2z6Ie65YyX5biC5Lit5bGx5Y2A6ZW35a6J5ZyL5rCR5bCP5a24!5e0!3m2!1szh-TW!2stw!4v1745040611541!5m2!1szh-TW!2stw",
+    "place_fees": "32500",
+    "place_range": "季",
+    "place_period": "2025-04 ~ 2025-06",
+    "season": ["2025-Q2"]
+  },
+  {
+    "id": "2",
+    "place_id": 1,
+    "place_name": "臺北市立士林高級商業職業學校",
+    "place_address": "111台北市士林區士商路150號",
+    "place_time": "週日 08:00 AM ~ 10:00 AM",
+    "place_traffic_mrt": "自行 Google ",
+    "place_traffic_bus": "自行 Google ",
+    "place_traffic_carpool": "自行 Google ",
+    "place_gmap_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57827.452317487725!2d121.49459460298718!3d25.060674919202018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aeb8ea956179%3A0x1cca71d1a78fcdbe!2z6Ie65YyX5biC56uL5aOr5p6X6auY57Sa5ZWG5qWt6IG35qWt5a245qCh!5e0!3m2!1szh-TW!2stw!4v1753598796423!5m2!1szh-TW!2stw",
+    "place_fees": "免費",
+    "place_range": "季",
+    "place_period": "2025-07 ~ 2025-09",
+    "season": ["2025-Q3"]
+  }
+] 
