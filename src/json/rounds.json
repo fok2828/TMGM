@@ -1,25 +1,7 @@
 [
-    { 
-        "id": "1",
-        "date": "2025-04-20",
-        "round": "1", 
-        "type": "5 v 5",
-        "timeDuration":"06:22"
-    },
-    {
-        "id": "2",
-        "date": "2025-04-20", 
-        "round": "2", 
-        "type": "5 v 5",
-        "timeDuration":"09:25"
-    },
-    {
-        "id": "3",
-        "date": "2025-04-20", 
-        "round": "3", 
-        "type": "5 v 5",
-        "timeDuration":"02:51"
-    },
+    { "id": "1", "date": "2025-04-20", "round": "1", "type": "5 v 5", "timeDuration":"06:22" },
+    { "id": "2", "date": "2025-04-20", "round": "2", "type": "5 v 5", "timeDuration":"09:25" },
+    { "id": "3", "date": "2025-04-20", "round": "3", "type": "5 v 5", "timeDuration":"02:51" },
     {
         "id": "4",
         "date": "2025-04-20", 
@@ -839,25 +821,21 @@
         "type": "5 v 5",
         "timeDuration":"05:01"
     },
-    {
-        "id": "121",
-        "date": "2025-06-29", 
-        "round": "9", 
-        "type": "5 v 5",
-        "timeDuration":"06:34"
-    },
-    {
-        "id": "122",
-        "date": "2025-06-29", 
-        "round": "10", 
-        "type": "5 v 5",
-        "timeDuration":"05:11"
-    },
-    {
-        "id": "123",
-        "date": "2025-06-29", 
-        "round": "11", 
-        "type": "5 v 5",
-        "timeDuration":"09:41"
-    }
+    { "id": "121", "date": "2025-06-29", "round": "9", "type": "5 v 5", "timeDuration":"06:34" },
+    { "id": "122", "date": "2025-06-29", "round": "10", "type": "5 v 5", "timeDuration":"05:11" },
+    { "id": "123","date": "2025-06-29", "round": "11", "type": "5 v 5", "timeDuration":"09:41" },
+    { "id": "124","date": "2025-07-06", "round": "1", "type": "5 v 5", "timeDuration":"07:24" },
+    { "id": "125","date": "2025-07-06", "round": "2", "type": "5 v 5", "timeDuration":"05:59" },
+    { "id": "126","date": "2025-07-06", "round": "3", "type": "5 v 5", "timeDuration":"06:09" },
+    { "id": "127","date": "2025-07-06", "round": "4", "type": "5 v 5", "timeDuration":"04:28" },
+    { "id": "128","date": "2025-07-06", "round": "5", "type": "5 v 5", "timeDuration":"03:44" },
+    { "id": "129","date": "2025-07-06", "round": "6", "type": "5 v 5", "timeDuration":"07:43" },
+    { "id": "130","date": "2025-07-06", "round": "7", "type": "5 v 5", "timeDuration":"06:30" },
+    { "id": "131","date": "2025-07-06", "round": "8", "type": "5 v 5", "timeDuration":"03:35" },
+    { "id": "132","date": "2025-07-06", "round": "9", "type": "5 v 5", "timeDuration":"07:18" },
+    { "id": "133","date": "2025-07-06", "round": "10", "type": "5 v 5", "timeDuration":"02:49" },
+    { "id": "134","date": "2025-07-06", "round": "11", "type": "5 v 5", "timeDuration":"03:59" },
+    { "id": "135","date": "2025-07-06", "round": "12", "type": "5 v 5", "timeDuration":"03:02" },
+    { "id": "136","date": "2025-07-06", "round": "13", "type": "5 v 5", "timeDuration":"04:45" },
+    { "id": "137","date": "2025-07-06", "round": "14", "type": "5 v 5", "timeDuration":"04:40" }
 ]

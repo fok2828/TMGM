@@ -52,6 +52,24 @@ export const PlayerList = () => {
     return seasons;
   };
 
+  // 初始化所有賽季為收合狀態
+  const initializeCollapsedStates = () => {
+    const seasons = Object.keys(groupGamesBySeason());
+    
+    const seasonStates = seasons.reduce((acc, season) => {
+      acc[season] = true; // 預設收合
+      return acc;
+    }, {} as { [key: string]: boolean });
+    
+    return seasonStates;
+  };
+
+  // 如果狀態為空，則初始化
+  if (Object.keys(collapsedSeasons).length === 0) {
+    const seasonStates = initializeCollapsedStates();
+    setCollapsedSeasons(seasonStates);
+  }
+
   // 獲取該季參與的球員
   const getSeasonPlayers = (seasonKey: string): Player[] => {
     const seasonGames = groupGamesBySeason()[seasonKey] || [];
@@ -120,7 +138,7 @@ export const PlayerList = () => {
           <div key={seasonKey} className="mb-8">
             {/* 季分類標題 - 可點擊收合 */}
             <div 
-              className="bg-primary text-primary-content p-4 rounded-lg mb-4 cursor-pointer hover:bg-primary-focus transition-colors"
+                              className="bg-base-200 text-base-content p-4 rounded-lg mb-4 cursor-pointer hover:bg-base-300 transition-colors"
               onClick={() => toggleCollapse(seasonKey)}
             >
               <div className="flex items-center justify-between">
