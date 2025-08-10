@@ -3,13 +3,12 @@ export const Home = () => {
   return (
     <div className="overflow-hidden flex flex-col items-center justify-center relative">
       {/* 嵌入YouTube影片 */}
-      <div className='mt-24 mb-10'>
-        <iframe 
-          width="560" 
-          height="315" 
-          src="https://www.youtube.com/embed/XSdQmemvTyE" 
-          title="YouTube video player" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      <div className="videoContainer">
+        <iframe
+          className="videoIframe"
+          src="https://www.youtube.com/embed/XSdQmemvTyE"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         ></iframe>
       </div>
