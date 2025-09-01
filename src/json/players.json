@@ -365,7 +365,31 @@
     },{
         "id": "53",
         "name":"阿啾",
-        "name_line":"@顏繹洲（阿啾） ",
+        "name_line":"顏繹洲（阿啾）",
+        "pay_way":"once",
+        "position":"球員"
+    },{
+        "id": "54",
+        "name":"wAdE",
+        "name_line":"",
+        "pay_way":"once",
+        "position":"球員"
+    },{
+        "id": "55",
+        "name":"路人甲",
+        "name_line":"",
+        "pay_way":"once",
+        "position":"球員"
+    },{
+        "id": "56",
+        "name":"路人乙",
+        "name_line":"",
+        "pay_way":"once",
+        "position":"球員"
+    },{
+        "id": "57",
+        "name":"路人丙",
+        "name_line":"",
         "pay_way":"once",
         "position":"球員"
     }
