@@ -13,8 +13,7 @@ interface Game {
         total_time: string;
         total_score: string;
         change_rules: {
-            1: string;
-            2: string;
+            [key: string]: string | undefined; 
         }
     };
     roundIds: string
