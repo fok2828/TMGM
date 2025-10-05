@@ -392,5 +392,23 @@
         "name_line":"",
         "pay_way":"once",
         "position":"球員"
+    },{
+        "id": "59",
+        "name":"Rex",
+        "name_line":"",
+        "pay_way":"once",
+        "position":"球員"
+    },{
+        "id": "60",
+        "name":"Fran's Friend",
+        "name_line":"",
+        "pay_way":"once",
+        "position":"球員"
+    },{
+        "id": "61",
+        "name":"宗翰",
+        "name_line":"",
+        "pay_way":"once",
+        "position":"球員"
     }
 ]
