@@ -416,5 +416,24 @@
         "name_line":"",
         "pay_way":"once",
         "position":"球員"
+    },{
+        "id": "63",
+        "name":"肉棒暉",
+        "name_line":"",
+        "pay_way":"once",
+        "position":"球員"
+    },{
+        "id": "64",
+        "name":"阿福高中同學",
+        "name_line":"",
+        "pay_way":"once",
+        "position":"球員"
+    },{
+        "id": "65",
+        "name":"阿融",
+        "name_line":"昀融",
+        "pay_way":"once",
+        "position":"球員"
     }
+
 ]

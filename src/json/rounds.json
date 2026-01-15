@@ -665,5 +665,21 @@
     { "id": "196","date": "2025-08-31", "round": "7", "type": "5 v 5", "timeDuration":"05:06"},
     { "id": "197","date": "2025-08-31", "round": "8", "type": "5 v 5", "timeDuration":"05:28"},
     { "id": "198","date": "2025-08-31", "round": "9", "type": "5 v 5", "timeDuration":"09:50"},
-    { "id": "199","date": "2025-08-31", "round": "10", "type": "5 v 5", "timeDuration":"11:55"}
+    { "id": "199","date": "2025-08-31", "round": "10", "type": "5 v 5", "timeDuration":"04:54"},
+    {"id": "200", "date": "2026-01-04", "round": "1", "type": "5 v 5", "timeDuration": "07:44"}, 
+    {"id": "201", "date": "2026-01-04", "round": "2", "type": "5 v 5", "timeDuration": "04:45"}, 
+    {"id": "202", "date": "2026-01-04", "round": "3", "type": "5 v 5", "timeDuration": "07:35"}, 
+    {"id": "203", "date": "2026-01-04", "round": "4", "type": "5 v 5", "timeDuration": "05:45"}, 
+    {"id": "204", "date": "2026-01-04", "round": "5", "type": "5 v 5", "timeDuration": "04:28"}, 
+    {"id": "205", "date": "2026-01-04", "round": "6", "type": "5 v 5", "timeDuration": "07:20"}, 
+    {"id": "206", "date": "2026-01-04", "round": "7", "type": "5 v 5", "timeDuration": "04:33"}, 
+    {"id": "207", "date": "2026-01-04", "round": "8", "type": "5 v 5", "timeDuration": "09:16"}, 
+    {"id": "208", "date": "2026-01-04", "round": "9", "type": "5 v 5", "timeDuration": "06:11"}, 
+    {"id": "209", "date": "2026-01-04", "round": "10", "type": "5 v 5", "timeDuration": "08:54"}, 
+    {"id": "210", "date": "2026-01-04", "round": "11", "type": "5 v 5", "timeDuration": "05:55"},
+    {"id": "211", "date": "2025-09-28", "round": "1", "type": "5 v 5", "timeDuration": "07:32"}, 
+    {"id": "212", "date": "2025-09-28", "round": "2", "type": "5 v 5", "timeDuration": "06:22"}, 
+    {"id": "213", "date": "2025-09-28", "round": "3", "type": "5 v 5", "timeDuration": "07:24"}, 
+    {"id": "214", "date": "2025-09-28", "round": "4", "type": "5 v 5", "timeDuration": "07:20"}, 
+    {"id": "215", "date": "2025-09-28", "round": "5", "type": "5 v 5", "timeDuration": "05:45"}
 ]
